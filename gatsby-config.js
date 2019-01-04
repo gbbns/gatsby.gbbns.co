@@ -26,6 +26,12 @@ module.exports = {
     'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
 		{
+			resolve: `gatsby-plugin-favicon`,
+			options: {
+				logo: "/src/images/favicon.png",
+			}
+		},
+		{
 			resolve: 'gatsby-plugin-google-analytics',
 			options: {
 				trackingId: 'UA-31834421-2',
