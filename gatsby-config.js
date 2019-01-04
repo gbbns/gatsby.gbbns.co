@@ -25,10 +25,11 @@ module.exports = {
 		'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
+		'gatsby-plugin-sass',
 		{
-			resolve: `gatsby-plugin-favicon`,
+			resolve: 'gatsby-plugin-favicon',
 			options: {
-				logo: "/src/images/favicon.png",
+				logo: path.join(__dirname, 'src/images/favicon.png'),
 			}
 		},
 		{
