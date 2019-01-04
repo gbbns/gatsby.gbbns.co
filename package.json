@@ -1,0 +1,55 @@
+{
+ "name": "gatsby-starter-default",
+ "description": "Gatsby default starter",
+ "version": "1.0.0",
+ "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+ "dependencies": {
+  "gatsby": "^2.0.53",
+  "gatsby-image": "^2.0.20",
+  "gatsby-plugin-catch-links": "^2.0.9",
+  "gatsby-plugin-google-analytics": "^2.0.8",
+  "gatsby-plugin-manifest": "^2.0.9",
+  "gatsby-plugin-offline": "^2.0.20",
+  "gatsby-plugin-react-helmet": "^3.0.2",
+  "gatsby-plugin-sass": "^2.0.7",
+  "gatsby-plugin-sharp": "^2.0.14",
+  "gatsby-source-filesystem": "^2.0.8",
+  "gatsby-transformer-remark": "^2.1.17",
+  "gatsby-transformer-sharp": "^2.1.8",
+  "prop-types": "^15.6.2",
+  "react": "^16.6.3",
+  "react-dom": "^16.6.3",
+  "react-helmet": "^5.2.0"
+ },
+ "keywords": [
+  "gatsby"
+ ],
+ "devDependencies": {
+  "@commitlint/config-conventional": "^6.1.3",
+  "@commitlint/prompt-cli": "^7.0.0",
+  "commitlint": "^6.2.0",
+  "husky": "^1.3.0",
+  "prettier": "^1.15.3"
+ },
+ "license": "MIT",
+ "scripts": {
+  "build": "gatsby build",
+  "commit": "commit",
+  "commitmsg": "commitlint -e $GIT_PARAMS",
+  "format": "prettier --write 'src/**/*.js'",
+  "precommit": "yarn run format",
+  "start": "gatsby develop",
+  "nuke": "npm run delete:node_modules",
+  "delete:node_modules": "rm -rf node_modules",
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "commitlint": {
+  "extends": [
+   "./@commitlint/config-conventional"
+  ]
+ },
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+ }
+}
