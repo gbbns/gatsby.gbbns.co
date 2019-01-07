@@ -16,11 +16,11 @@
 
 This is the source code for the personal site of me, Chris Gibbons, Principal UI developer from just outside the seaside town of [Blackpool](https://en.wikipedia.org/wiki/Blackpool)
 
-I've spent some time re-building my [site](https://gbbns.co) and it's now built using [Gatsby](https://gatsbyjs.org), is open sourced on [GitHub](https://github.com/gbbns/gbbns.co) and hosted on [Netlify](https://www.netlify.com/)
+I've re-built this [site](https://gbbns.co) and it's now using [Gatsby](https://gatsbyjs.org), is open sourced on [GitHub](https://github.com/gbbns/gbbns.co) and hosted on [Netlify](https://www.netlify.com/)
 
-~My [previous site](https://github.com/gbbns/gbbns.github.io) was built using [Jekyll](https://jekyllrb.com/).
+~~My [previous site](https://github.com/gbbns/gbbns.github.io) was built using [Jekyll](https://jekyllrb.com/).~~
 
-[This site](https://gbbns.co) is now built using [Hugo](https://gohugo.io/), is open sourced on [GitHub](https://github.com/gbbns/gbbns.co) and hosted on [Netlify](https://www.netlify.com/)~
+~~[This site](https://gbbns.co) is now built using [Hugo](https://gohugo.io/), is open sourced on [GitHub](https://github.com/gbbns/gbbns.co) and hosted on [Netlify](https://www.netlify.com/)~~
 
 ## 💫 Deploy
 
