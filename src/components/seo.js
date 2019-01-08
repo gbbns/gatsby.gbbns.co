@@ -87,7 +87,7 @@ const detailsQuery = graphql`
   query DefaultSEOQuery {
     site {
       siteMetadata {
-        siteTitle
+        siteTitleTag
         siteDescription
         author
       }
