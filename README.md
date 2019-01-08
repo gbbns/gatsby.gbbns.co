@@ -14,13 +14,14 @@
 
 ## About
 
-This is the source code for the personal site of me, Chris Gibbons, Principal UI developer from just outside the seaside town of [Blackpool](https://en.wikipedia.org/wiki/Blackpool)
+This is the source code for the personal site of me, Chris Gibbons, Principal UI/front end developer & UX technologist from just outside the seaside town of [Blackpool](https://en.wikipedia.org/wiki/Blackpool). Feel free to have a poke around, ask me questions, but don't steal it.
 
-I've re-built this [site](https://gbbns.co) and it's now using [Gatsby](https://gatsbyjs.org), is open sourced on [GitHub](https://github.com/gbbns/gbbns.co) and hosted on [Netlify](https://www.netlify.com/)
+I've [re-built this site](https://gbbns.co) and it's now using the pretty amazing [Gatsby](https://gatsbyjs.org), it's open sourced on [GitHub](https://github.com/gbbns/gbbns.co) and proudly hosted on [Netlify](https://www.netlify.com/)
 
-~~My [previous site](https://github.com/gbbns/gbbns.github.io) was built using [Jekyll](https://jekyllrb.com/).~~
+~~My [previous site](https://gbbns.co) was built using [Hugo](https://gohugo.io/) with the code still living here [GitHub](https://github.com/gbbns/gbbns.co)~~
 
-~~[This site](https://gbbns.co) is now built using [Hugo](https://gohugo.io/), is open sourced on [GitHub](https://github.com/gbbns/gbbns.co) and hosted on [Netlify](https://www.netlify.com/)~~
+~~The [site before that](https://github.com/gbbns/gbbns.github.io) was built using [Jekyll](https://jekyllrb.com/).~~
+
 
 ## 💫 Deploy
 

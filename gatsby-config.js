@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
 		author: 'Chris Gibbons',
 		siteTitle: 'Chris Gibbons',
-		siteDescription: 'Principal front end developer & UX technologist based in Blackpool // Manchester',
+		siteDescription: 'Principal UI/front end developer & UX technologist based in Blackpool // Manchester',
 		introTitle: 'Hello, I\'m Chris Gibbons.',
-		tagline: 'I’m a UX Technologist and principal front end developer/consultant from the UK.',
+		tagline: 'I’m a UX Technologist and principal UI/front end developer/consultant from the UK.',
   },
   plugins: [
 		'gatsby-plugin-catch-links',
