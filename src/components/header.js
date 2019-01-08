@@ -22,10 +22,11 @@ const Header = () => (
 		render={data => (
 			<header>
 				<Link to="/"
+							className="c-masthead"
 							activeClassName="is-active">
-					<span>{data.site.siteMetadata.url}</span>
-					<span>{data.site.siteMetadata.author}</span>
-					<span>{data.site.siteMetadata.siteTitleTag}/</span>
+					<span className="c-masthead__item">{data.site.siteMetadata.url}</span>
+					<span className="c-masthead__item">{data.site.siteMetadata.author}</span>
+					<span className="c-masthead__item">{data.site.siteMetadata.siteTitleTag}/</span>
 				</Link>
 
 				<nav>

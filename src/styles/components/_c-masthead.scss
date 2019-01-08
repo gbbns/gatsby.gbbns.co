@@ -1,0 +1,19 @@
+.c-masthead {
+	color: $palette-plain;
+	transition: 0.15s all;
+	text-decoration: none;
+
+	&:hover {
+		color: $palette-links;
+	}
+
+	&__item {
+		display: block;
+		text-decoration: none;
+
+		&:first-child {
+			color: $palette-links;
+			text-transform: uppercase;
+		}
+	}
+}
