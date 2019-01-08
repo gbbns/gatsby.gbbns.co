@@ -1,5 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 
 const Header = () => (
 	<StaticQuery
@@ -20,11 +21,12 @@ const Header = () => (
 
 		render={data => (
 			<header>
-				<a href="#">
+				<Link to="/"
+							activeClassName="is-active">
 					<span>{data.site.siteMetadata.url}</span>
 					<span>{data.site.siteMetadata.author}</span>
 					<span>{data.site.siteMetadata.siteTitleTag}/</span>
-				</a>
+				</Link>
 
 				<nav>
 					<ul>
