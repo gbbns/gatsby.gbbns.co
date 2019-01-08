@@ -3,10 +3,10 @@
  "description": "Chris Gibbons - Principal UI/front end developer & UX technologist",
  "version": "1.0.0",
  "author": {
-	"name": "Chris Gibbons",
-	"email": "chris@gbbns.co",
-	"url": "https://gbbns.co"
-},
+  "name": "Chris Gibbons",
+  "email": "chris@gbbns.co",
+  "url": "https://gbbns.co"
+ },
  "dependencies": {
   "gatsby": "^2.0.53",
   "gatsby-image": "^2.0.20",

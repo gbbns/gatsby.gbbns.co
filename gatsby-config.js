@@ -1,12 +1,13 @@
 const path = require('path')
 
 module.exports = {
-  siteMetadata: {
+	siteMetadata: {
 		author: 'Chris Gibbons',
-		siteTitle: 'Chris Gibbons',
+		siteTitleTag: 'UX Technologist',
 		siteDescription: 'Principal UI/front end developer & UX technologist based in Blackpool // Manchester',
 		introTitle: 'Hello, I\'m Chris Gibbons.',
 		tagline: 'I’m a UX Technologist and principal UI/front end developer/consultant from the UK.',
+		url: 'gbbns.co'
   },
   plugins: [
 		'gatsby-plugin-catch-links',
