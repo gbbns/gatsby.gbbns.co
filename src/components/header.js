@@ -20,7 +20,7 @@ const Header = () => (
 		`}
 
 		render={data => (
-			<header>
+			<header className="o-content__sidebar">
 				<Link to="/"
 							className="c-masthead"
 							activeClassName="is-active">

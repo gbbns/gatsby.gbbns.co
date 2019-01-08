@@ -13,15 +13,14 @@ export default function Template({
 	return (
 		<Layout>
 			<SEO title="{frontmatter.title}" keywords={['gatsby', 'application', 'react']} />
-			<div className="blog-post-container">
-				<div className="blog-post">
+			<div className="c-content">
+				<div className="c-content__body">
 					<h1>
 						<span>{frontmatter.title}</span>
 						<span>&mdash;{frontmatter.author}</span>
 					</h1>
 					<h2>{frontmatter.date}</h2>
 					<div
-						className="blog-post-content"
 						dangerouslySetInnerHTML={{ __html: html }}
 					/>
 				</div>

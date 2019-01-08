@@ -1,0 +1,13 @@
+.c-content {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+
+	&__title {
+
+	}
+
+	&__body {
+		grid-column-start: 3;
+		grid-column-end: 8;
+	}
+}

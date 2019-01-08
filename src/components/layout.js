@@ -17,9 +17,9 @@ const Layout = ({ children }) => (
 		`}
 
 		render={data => (
-			<main>
+			<main className="o-content">
 				<Header />
-				<section>
+				<section className="o-content__body">
 					<h1>{data.site.siteMetadata.introTitle}</h1>
 					{children}
 				</section>
