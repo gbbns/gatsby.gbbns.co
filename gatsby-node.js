@@ -8,27 +8,29 @@
 const path = require("path")
 
 exports.createPages = ({ actions, graphql }) => {
-	const { createPage } = actions
+	const { createPage } = actions;
 
-	const blogPostTemplate = path.resolve(`src/templates/article.js`)
+	const postTemplate = path.resolve('src/templates/article.js');
 
-	return graphql(`
-    {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-      ) {
-        edges {
-          node {
-            frontmatter {
-							path
-							published
-            }
-          }
-        }
-      }
-    }
-  `).then(result => {
+	return graphql(`{
+		allMarkdownRemark(
+			sort: { fields: [frontmatter___date], order: DESC }
+		) {
+			edges {
+				node {
+					html
+					id
+					frontmatter {
+						path
+						published
+						title
+						date
+					}
+				}
+			}
+		}
+	}`)
+	.then(result => {
 		if (result.errors) {
 			return Promise.reject(result.errors)
 		}
@@ -41,7 +43,7 @@ exports.createPages = ({ actions, graphql }) => {
 		allowedPosts.forEach(({ node }) => {
 			createPage({
 				path: node.frontmatter.path,
-				component: blogPostTemplate,
+				component: postTemplate,
 				context: {}, // additional data can be passed via context
 			})
 		})
