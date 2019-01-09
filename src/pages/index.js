@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Layout from '../layouts/layout'
 import SEO from '../components/seo'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby'
@@ -11,9 +11,11 @@ export default function Index({ data }) {
 	const { edges: posts } = data.allMarkdownRemark
 	return (
 		<Layout>
+			<SEO title="Home" keywords={['gatsby', 'application', 'react']} />
+
 			<section className="c-content">
 				<div className="c-content__title">
-					<SEO title="Home" keywords={['gatsby', 'application', 'react']} />
+					<h1>{data.site.siteMetadata.introTitle}</h1>
 				</div>
 				<div className="c-content__body">
 					<p>An experienced frontend developer based in Lancashire [53.7632° N, 2.7044° W], UK.</p>
@@ -43,6 +45,11 @@ export default function Index({ data }) {
 
 export const pageQuery = graphql`
   query IndexQuery {
+		site {
+			siteMetadata {
+				introTitle
+			}
+		}
 		allMarkdownRemark(
 			limit: 5,
 			filter: {frontmatter: {published: {eq: true}}},

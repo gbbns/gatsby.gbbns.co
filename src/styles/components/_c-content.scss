@@ -3,7 +3,8 @@
 	grid-template-columns: repeat(8, 1fr);
 
 	&__title {
-
+		grid-column-start: 1;
+		grid-column-end: 8;
 	}
 
 	&__body {

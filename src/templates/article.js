@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Layout from '../layouts/layout'
 import SEO from '../components/seo'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby'
@@ -14,12 +14,17 @@ export default function Template({
 		<Layout>
 			<SEO title="{frontmatter.title}" keywords={['gatsby', 'application', 'react']} />
 			<div className="c-content">
+				<div className="c-content__title">
+					<h1>{frontmatter.title}</h1>
+				</div>
 				<div className="c-content__body">
-					<h1>
-						<span>{frontmatter.title}</span>
-						<span>&mdash;{frontmatter.author}</span>
-					</h1>
-					<h2>{frontmatter.date}</h2>
+					<div className="c-content__meta">
+						<ul>
+							<li>by {frontmatter.author}</li>
+							<li>{frontmatter.date}</li>
+							<li>{markdownRemark.timeToRead} {markdownRemark.timeToRead > 1 ? 'mins' : 'min'} to read</li>
+						</ul>
+					</div>
 					<div
 						dangerouslySetInnerHTML={{ __html: html }}
 					/>
@@ -32,7 +37,8 @@ export default function Template({
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+			html
+			timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
