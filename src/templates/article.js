@@ -12,7 +12,7 @@ export default function Template({
 	const { frontmatter, html } = markdownRemark
 	return (
 		<Layout>
-			<SEO title="{frontmatter.title}" keywords={['gatsby', 'application', 'react']} />
+			<SEO title={frontmatter.title} keywords={['gatsby', 'application', 'react']} />
 			<div className="c-content">
 				<div className="c-content__title">
 					<h1>{frontmatter.title}</h1>
