@@ -13,7 +13,8 @@ const Header = () => (
 						siteDescription
 						introTitle
 						tagline
-						url
+						siteUrl
+						urlSlug
 					}
 				}
 			}
@@ -24,7 +25,7 @@ const Header = () => (
 				<Link to="/"
 							className="c-masthead"
 							activeClassName="is-active">
-					<span className="c-masthead__item">{data.site.siteMetadata.url}</span>
+					<span className="c-masthead__item">{data.site.siteMetadata.urlSlug}</span>
 					<span className="c-masthead__item">{data.site.siteMetadata.author}</span>
 					<span className="c-masthead__item">{data.site.siteMetadata.siteTitleTag}/</span>
 				</Link>

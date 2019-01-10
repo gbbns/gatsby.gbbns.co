@@ -1,6 +1,4 @@
 import React from 'react'
-import { graphql, StaticQuery } from 'gatsby'
-import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 

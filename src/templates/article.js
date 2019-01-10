@@ -3,7 +3,6 @@ import React from 'react'
 import Layout from '../layouts/layout'
 import SEO from '../components/seo'
 import { graphql } from 'gatsby'
-import { Link } from 'gatsby'
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
