@@ -18,6 +18,11 @@ exports.createPages = ({ actions, graphql }) => {
 		) {
 			edges {
 				node {
+					parent {
+						... on File {
+							mtime(fromNow: true)
+						}
+					}
 					html
 					id
 					frontmatter {

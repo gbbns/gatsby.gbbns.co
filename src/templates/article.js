@@ -28,6 +28,11 @@ export default function Template({
 					<div
 						dangerouslySetInnerHTML={{ __html: html }}
 					/>
+					<footer>
+						<p>
+							<small>Page last updated: {markdownRemark.parent.mtime}</small>
+						</p>
+					</footer>
 				</div>
 			</div>
 		</Layout>
@@ -37,6 +42,11 @@ export default function Template({
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
+			parent {
+				... on File {
+					mtime(fromNow: true)
+				}
+			}
 			html
 			timeToRead
       frontmatter {

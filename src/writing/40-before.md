@@ -40,4 +40,3 @@ I'm no different, for instance those close to me know that it's a life long ambi
 [list of current '40']
 
 [the before is a play on the 40 things before you die, 40 things before 40 etc. I kept it vague in that respect. I also don't want the list to stop at 40, for me that is where it _starts_]
-

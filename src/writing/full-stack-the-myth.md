@@ -10,10 +10,9 @@ excerpt: ""
 author: "Chris Gibbons"
 path: "/writing/full-stack-the-myth-the-bullshit"
 ---
-## WIP!
 My plan is to write this post in the open, in the meantime these are my current thoughts on the subject.
 
-## Thoughts
+## Current thoughts
 
 * FE is a spectrum
 	* UX <----> HTML/CSS <----> JS/Engineering
@@ -26,5 +25,5 @@ My plan is to write this post in the open, in the meantime these are my current 
 	* Sass, CSS & pattern libraries
 	* Build tools
 	* Linting
-* It's no longer about converting a design to a template, we've got more intelligent in our approach, the bredth of FE has grown massively
+* It's no longer about converting a design to a template, we've got more intelligent in our approach, the bredth of FE has grown massively and as such...
 * So, let me ask you, are you _really_ fullstack?
