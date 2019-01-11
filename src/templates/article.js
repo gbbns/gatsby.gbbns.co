@@ -5,6 +5,7 @@ import SEO from '../components/seo'
 import { graphql, Link } from 'gatsby'
 
 import kebabCase from 'lodash'
+import moment from  'moment'
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
@@ -49,7 +50,7 @@ export default function Template({
 					/>
 					<footer>
 						<p>
-							<small>Page last updated: {markdownRemark.parent.mtime}</small>
+							<small>Page last updated: <time datetime={markdownRemark.parent.mtime}>{moment(markdownRemark.parent.mtime).fromNow()}</time></small>
 						</p>
 					</footer>
 				</div>
@@ -63,7 +64,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
 			parent {
 				... on File {
-					mtime(fromNow: true)
+					mtime
 				}
 			}
 			html
