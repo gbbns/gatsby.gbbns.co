@@ -4,7 +4,7 @@
 	text-decoration: none;
 
 	&:hover {
-		color: $palette-links;
+		color: $palette-yellow;
 	}
 
 	&__item {
@@ -12,7 +12,7 @@
 		text-decoration: none;
 
 		&:first-child {
-			color: $palette-links;
+			color: $palette-yellow;
 			text-transform: uppercase;
 		}
 	}

@@ -11,4 +11,20 @@
 		grid-column-start: 3;
 		grid-column-end: 8;
 	}
-}
+
+	&__meta {
+
+		&-tag {
+			background: $palette-mid--light;
+			color: $palette-black;
+			display: inline-block;
+			padding: $base-spacing / 2;
+			border-radius: 10px;
+			font-size: 0.6rem;
+			text-transform: uppercase;
+			width: max-content;
+			font-weight: bold;
+			}
+		}
+	}
+
