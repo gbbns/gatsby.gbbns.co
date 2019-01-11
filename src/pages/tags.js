@@ -13,7 +13,7 @@ const TagsPage = ({
 	data: {
 		allMarkdownRemark: { group },
 		site: {
-			siteMetadata: { title },
+			siteMetadata: { introTitle },
 		},
 	},
 }) => (
