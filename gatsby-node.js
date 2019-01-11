@@ -6,11 +6,13 @@
 
 // You can delete this file if you're not using it
 const path = require("path")
+const _ = require("lodash")
 
 exports.createPages = ({ actions, graphql }) => {
 	const { createPage } = actions;
 
 	const postTemplate = path.resolve('src/templates/article.js');
+	const tagTemplate = path.resolve("src/templates/tags.js")
 
 	return graphql(`{
 		allMarkdownRemark(
@@ -30,6 +32,7 @@ exports.createPages = ({ actions, graphql }) => {
 						published
 						title
 						date
+						tags
 					}
 				}
 			}
@@ -52,5 +55,28 @@ exports.createPages = ({ actions, graphql }) => {
 				context: {}, // additional data can be passed via context
 			})
 		})
+
+		// Tag pages:
+		let tags = []
+		// Iterate through each post, putting all found tags into `tags`
+		_.each(allowedPosts, edge => {
+			if (_.get(edge, "node.frontmatter.tags")) {
+				tags = tags.concat(edge.node.frontmatter.tags)
+			}
+		})
+		// Eliminate duplicate tags
+		tags = _.uniq(tags)
+
+		// Make tag pages
+		tags.forEach(tag => {
+			createPage({
+				path: `/tags/${_.kebabCase(tag)}/`,
+				component: tagTemplate,
+				context: {
+					tag,
+				},
+			})
+		})
+
 	})
 }
