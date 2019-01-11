@@ -6,6 +6,7 @@ import { graphql, Link } from 'gatsby'
 
 import kebabCase from 'lodash'
 import moment from  'moment'
+import LastUpdated from '../components/last-updated';
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
@@ -35,8 +36,8 @@ export default function Template({
 									{frontmatter.tags.map((tag, index) => {
 										return (
 											<Link to={`/tags/${kebabCase(tag)}`}
-												className="c-content__meta-tag"
-												key={index}>
+														className="c-content__meta-tag"
+														key={index}>
 												{`${kebabCase(tag)}`}
 											</Link>
 										)
@@ -48,11 +49,8 @@ export default function Template({
 					<div
 						dangerouslySetInnerHTML={{ __html: html }}
 					/>
-					<footer>
-						<p>
-							<small>Page last updated: <time datetime={markdownRemark.parent.mtime}>{moment(markdownRemark.parent.mtime).fromNow()}</time></small>
-						</p>
-					</footer>
+					<LastUpdated dateTime={markdownRemark.parent.mtime}
+											 lastUpdated={moment(markdownRemark.parent.mtime).fromNow()} />
 				</div>
 			</div>
 		</Layout>
