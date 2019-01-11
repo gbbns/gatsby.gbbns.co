@@ -1,6 +1,6 @@
 ---
 categories: "personal"
-tags: ["work", "personal", "motivation", "mentalhealth"]
+tags: ["work", "personal", "motivation", "mental-health"]
 published: false
 title: "You"
 date: 2016-10-04T08:30:00+01:00

@@ -2,7 +2,7 @@
 categories: ""
 tags: [""]
 published: false
-title: "2018 Review"
+title: "2018 review"
 date: 2018-11-13T13:59:50Z
 description: ""
 type: ""
