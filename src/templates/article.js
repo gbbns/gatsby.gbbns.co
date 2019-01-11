@@ -36,7 +36,7 @@ export default function Template({
 											<Link to={`/tags/${kebabCase(tag)}`}
 												className="c-content__meta-tag"
 												key={index}>
-												${kebabCase(tag)}
+												{`${kebabCase(tag)}`}
 											</Link>
 										)
 									})}
