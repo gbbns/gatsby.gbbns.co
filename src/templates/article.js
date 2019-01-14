@@ -6,7 +6,7 @@ import { graphql, Link } from 'gatsby'
 
 import kebabCase from 'lodash'
 import moment from  'moment'
-import LastUpdated from '../components/last-updated';
+import { LastUpdated } from '../components/last-updated';
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
