@@ -30,12 +30,28 @@ const Header = () => (
 					<span className="c-masthead__item">{data.site.siteMetadata.siteTitleTag}/</span>
 				</Link>
 
-				<nav>
+				<nav className="c-navigaton">
 					<ul>
-						<li><a href="/">About</a></li>
-						<li><a href="/">Writing</a></li>
-						<li><a href="/">Speaking</a></li>
-						<li><a href="/">Contact</a></li>
+						<li>
+							<Link to="/about/"
+										className="c-navigation__link"
+										activeClassName="is-active">About</Link>
+						</li>
+						<li>
+							<Link to="/writing/"
+								className="c-navigation__link"
+								activeClassName="is-active">Writing</Link>
+						</li>
+						<li>
+							<Link to="/speaking/"
+										className="c-navigation__link"
+										activeClassName="is-active">Speaking</Link>
+						</li>
+						<li>
+							<Link to="/contact/"
+								className="c-navigation__link"
+								activeClassName="is-active">Contact</Link>
+						</li>
 					</ul>
 				</nav>
 
