@@ -30,6 +30,14 @@ module.exports = {
 		`gatsby-plugin-sharp`,
 		`gatsby-plugin-sass`,
 		{
+			resolve: `gatsby-plugin-web-font-loader`,
+			options: {
+				google: {
+					families: [`Spectral`, `Space Mono`]
+				}
+			}
+		},
+		{
 			resolve: `gatsby-plugin-favicon`,
 			options: {
 				logo: path.join(__dirname, `src/images/favicon.png`),

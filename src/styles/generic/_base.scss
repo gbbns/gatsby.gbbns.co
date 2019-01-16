@@ -10,3 +10,22 @@ body {
 	width: calc(100vw - 10vw);
 	margin: 0 auto;
 }
+
+h1, h2, h3, h4 {
+	font-family: Spectral;
+}
+
+h1{
+    color: #272727;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 0
+}
+
+@media screen and (min-width: 48em) {
+    h1{
+        font-size:80px;
+        letter-spacing: -4px;
+        line-height: 1
+    }
+}
