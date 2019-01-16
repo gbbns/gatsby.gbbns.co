@@ -1,7 +1,7 @@
 ---
 categories: "personal"
 tags: ["work", "personal", "motivation"]
-published: false
+published: true
 title: "The 30 day writing challenge"
 date: 2016-04-01T07:00:00+01:00
 description: ""

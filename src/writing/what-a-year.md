@@ -1,7 +1,7 @@
 ---
 categories: "personal"
 tags: ["work", "personal", "motivation"]
-published: false
+published: true
 title: "What a year"
 date: 2016-02-04T08:30:00+01:00
 description: ""

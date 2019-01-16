@@ -1,7 +1,7 @@
 ---
 categories: "personal"
 tags: ["work", "personal", "motivation"]
-published: false
+published: true
 title: "Burning the candle"
 date: 2016-04-06T12:30:00+01:00
 description: ""

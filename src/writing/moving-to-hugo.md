@@ -1,7 +1,7 @@
 ---
 categories: "coding"
 tags: ["hugo", "jekyll"]
-published: false
+published: true
 title: "Moving To Hugo"
 date: 2017-08-15T20:05:30+01:00
 description: "Sorry Jekyll, it's not you, it's me"

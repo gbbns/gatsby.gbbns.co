@@ -1,7 +1,7 @@
 ---
 categories: "personal"
 tags: ["work", "personal", "motivation"]
-published: false
+published: true
 title: "Motivation"
 date: 2016-02-19T08:30:00+01:00
 description: ""

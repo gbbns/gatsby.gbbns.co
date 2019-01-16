@@ -1,7 +1,7 @@
 ---
 categories: "personal"
 tags: ["preview", "personal"]
-published: false
+published: true
 title: "A belated preview"
 date: 2016-03-06T08:30:00+01:00
 description: ""

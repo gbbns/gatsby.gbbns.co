@@ -1,7 +1,7 @@
 ---
 categories: "personal"
 tags: [preview, personal]
-published: false
+published: true
 title: "2017 Review"
 date: 2018-01-11T09:42:32Z
 description: "Year in review"

@@ -1,7 +1,7 @@
 ---
 categories: "personal"
 tags: ["personal", "motivation"]
-published: false
+published: true
 title: "Broken"
 date: 2016-08-25T08:30:00+01:00
 description: ""

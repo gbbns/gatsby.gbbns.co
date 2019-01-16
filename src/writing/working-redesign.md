@@ -1,7 +1,7 @@
 ---
 categories: "personal"
 tags: ["work", "personal"]
-published: false
+published: true
 title: "Working redesign"
 date: 2016-01-28T07:00:00+01:00
 description: ""

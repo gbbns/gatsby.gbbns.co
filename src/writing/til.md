@@ -1,7 +1,7 @@
 ---
 categories: "notes"
 tags: ["notes", "til"]
-published: false
+published: true
 title: "Today I Learnt"
 date: 2017-08-02T18:22:41+01:00
 description: ""

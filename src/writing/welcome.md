@@ -1,7 +1,7 @@
 ---
 categories: "personal"
 tags: ["jekyll", "update", "hello"]
-published: false
+published: true
 title: "Welcome"
 date: 2016-02-02T08:30:00+01:00
 description: ""

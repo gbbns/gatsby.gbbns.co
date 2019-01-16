@@ -1,7 +1,7 @@
 ---
 categories: "blog"
 tags: ["blog", "future", "plans"]
-published: false
+published: true
 title: "Upcoming Blog Post Ideas"
 date: 2018-06-16T08:08:01Z
 description: ""
