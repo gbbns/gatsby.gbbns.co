@@ -1,7 +1,10 @@
 .o-content {
-	display: grid;
-	grid-template-columns: 4fr 8fr;
-	grid-gap: $base-spacing * 2;
+
+	@media (min-width: 40em) {
+		display: grid;
+		grid-template-columns: 4fr 8fr;
+		grid-gap: $base-spacing * 2;
+	}
 
 	&__sidebar {
 	}

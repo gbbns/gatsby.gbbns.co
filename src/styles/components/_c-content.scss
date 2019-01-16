@@ -1,15 +1,23 @@
 .c-content {
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
+
+	@media (min-width: 40em) {
+		display: grid;
+		grid-template-columns: repeat(8, 1fr);
+	}
+
 
 	&__title {
-		grid-column-start: 1;
-		grid-column-end: 8;
+		@media (min-width: 40em) {
+			grid-column-start: 1;
+			grid-column-end: 8;
+		}
 	}
 
 	&__body {
-		grid-column-start: 3;
-		grid-column-end: 8;
+		@media (min-width: 40em) {
+			grid-column-start: 3;
+			grid-column-end: 8;
+		}
 	}
 
 	&__meta {
