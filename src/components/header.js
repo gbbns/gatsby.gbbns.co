@@ -31,7 +31,7 @@ const Header = () => (
 				</Link>
 
 				<nav className="c-navigaton">
-					<ul>
+					<ul className="c-navigation__primary">
 						<li>
 							<Link to="/about/"
 										className="c-navigation__link"

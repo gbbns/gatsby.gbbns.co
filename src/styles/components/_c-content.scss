@@ -15,8 +15,12 @@
 
 	&__body {
 		@media (min-width: 40em) {
-			grid-column-start: 3;
+			grid-column-start: 2;
 			grid-column-end: 8;
+		}
+
+		p:first-of-type {
+			color: $palette-plain;
 		}
 	}
 
