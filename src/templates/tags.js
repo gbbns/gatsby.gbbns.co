@@ -15,7 +15,7 @@ const Tags = ({ pageContext, data }) => {
 
 	return (
 		<Layout>
-			<SEO title="{title" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="Blog articles tags listing" keywords={['gatsby', 'application', 'react']} />
 
 			<section className="c-content">
 				<div className="c-content__title">
