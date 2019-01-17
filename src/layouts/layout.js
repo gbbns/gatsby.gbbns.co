@@ -2,6 +2,7 @@ import React from 'react'
 
 import Header from '../components/header'
 import { Colophon } from '../components/colophon';
+import { Footer } from '../components/footer';
 
 const Layout = ({ children}) => {
 	return (
@@ -11,6 +12,7 @@ const Layout = ({ children}) => {
 			<section className="o-content__body">
 				{children}
 			</section>
+			<Footer />
 		</main>
 	)
 }
