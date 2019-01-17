@@ -30,8 +30,28 @@
 	&__meta {
 		margin: 0;
 
+		&-items {
+			margin-left: 0;
+			padding-left: 0;
+		}
+
+		&-item {
+			display: inline-block;
+			position: relative;
+
+			& + & {
+				margin-left: $base-spacing * 2;
+
+				&:before {
+					content:'•';
+					position: absolute;
+					left: -($base-spacing * 1.5);
+				}
+			}
+		}
+
 		&-tag {
-			background: $palette-mid--light;
+			background: $palette-plain;
 			color: $palette-black;
 			display: inline-block;
 			padding: $base-spacing / 2;
@@ -40,7 +60,25 @@
 			text-transform: uppercase;
 			width: max-content;
 			font-weight: bold;
+
+			&:hover {
+				background: $palette-black;
+				color: $palette-plain;
+			}
+		}
+
+		&-tags {
+			margin-left: 0;
+			padding-left: 0;
+		}
+		&-tags-item {
+			display: inline-block;
+			position: relative;
+
+			& + & {
+				margin-left: $base-spacing;
 			}
 		}
 	}
+}
 

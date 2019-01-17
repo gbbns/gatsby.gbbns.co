@@ -25,24 +25,24 @@ export default function Template({
 				</div>
 				<div className="c-content__body">
 					<div className="c-content__meta">
-						<ul>
-							<li>by {frontmatter.author}</li>
-							<li>{frontmatter.date}</li>
-							<li>{markdownRemark.timeToRead} {markdownRemark.timeToRead > 1 ? 'mins' : 'min'} to read</li>
+						<ul className="c-content__meta-items">
+							<li className="c-content__meta-item">by {frontmatter.author}</li>
+							<li className="c-content__meta-item">{frontmatter.date}</li>
+							<li className="c-content__meta-item">{markdownRemark.timeToRead} {markdownRemark.timeToRead > 1 ? 'mins' : 'min'} to read</li>
 						</ul>
 						{frontMatterTags && frontMatterTags.length > 0 && (
-							<ul>
-								<li>
+							<ul	className="c-content__meta-tags">
 									{frontmatter.tags.map((tag, index) => {
 										return (
-											<Link to={`/tags/${kebabCase(tag)}`}
-														className="c-content__meta-tag"
-														key={index}>
-												{`${kebabCase(tag)}`}
-											</Link>
+											<li className="c-content__meta-tags-item">
+												<Link to={`/tags/${kebabCase(tag)}`}
+															className="c-content__meta-tag"
+															key={index}>
+													{`${kebabCase(tag)}`}
+												</Link>
+											</li>
 										)
 									})}
-								</li>
 							</ul>
 						)}
 					</div>
