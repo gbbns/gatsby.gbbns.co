@@ -1,17 +1,29 @@
 .o-content {
+	display: grid;
 	padding-top: $base-spacing * 3;
 
+	grid-template-areas:
+		"masthead"
+		"content"
+		"colophon";
+
 	@media (min-width: 40em) {
-		display: grid;
-		grid-template-columns: 4fr 8fr;
+		grid-template-areas:
+			"masthead content"
+			"colophon content"
+			". content";
 		grid-gap: $base-spacing * 2;
 		padding-top: $base-spacing * 5;
 	}
 
 	&__sidebar {
+		grid-area: masthead;
 	}
 
 	&__body {
-
+		display: grid;
+		grid-area: content;
+		justify-content: start;
+		align-content: start;
 	}
 }

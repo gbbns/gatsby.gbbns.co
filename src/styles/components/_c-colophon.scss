@@ -1,4 +1,6 @@
 .c-colophon {
+	grid-area: colophon;
+
 	&__link {
 		color: $palette-plain;
 		font-family: 'Space Mono';

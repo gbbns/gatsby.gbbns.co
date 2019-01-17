@@ -1,7 +1,7 @@
 .c-content {
+	display: grid;
 
 	@media (min-width: 40em) {
-		display: grid;
 		grid-template-columns: repeat(8, 1fr);
 	}
 
