@@ -5,13 +5,15 @@
 	grid-template-areas:
 		"masthead"
 		"content"
-		"colophon";
+		"colophon"
+		"footer";
 
 	@media (min-width: 40em) {
 		grid-template-areas:
 			"masthead content"
 			"colophon content"
-			". content";
+			". content"
+			"footer footer";
 		grid-gap: $base-spacing * 2;
 		padding-top: $base-spacing * 5;
 	}
