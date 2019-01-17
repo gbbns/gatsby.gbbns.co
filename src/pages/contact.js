@@ -19,8 +19,8 @@ export default function Contact({ data }) {
 					<p>I normally respond the quickest on Twitter, so I'd recommend hitting me up on there for quick questions or to chat (DM's are open).</p>
 					<p>If you want to discuss a project, me working with you, speaking, or something longer, then please email me - though don’t be offended if it takes a day or so to reply!</p>
 					<ul>
-						<li><a href="https://www.twitter.com/_gbbns">[Twitter -  @_gbbns](</a></li>
-						<li><a href="mailto:chris@gbbns.co">[Email - chris@gbbns.co]</a></li>
+						<li><a href="https://www.twitter.com/_gbbns">Twitter -  @_gbbns</a></li>
+						<li><a href="mailto:chris@gbbns.co">Email - chris@gbbns.co</a></li>
 					</ul>
 				</div>
 			</section>

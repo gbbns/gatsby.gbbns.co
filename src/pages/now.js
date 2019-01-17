@@ -40,7 +40,6 @@ export default function Now({ data }) {
 					<p>Keeping my dream of going to Australia alive.</p>
 
 					<p>Inspired by <a href="https://sivers.org/nowff" rel="noopener">Derik Sivers Now page</a>, via <a href="https://marcjenkins.co.uk/now/" rel="noopener">Marc Jenkins Now page</a>, <a href="https://nownownow.com" rel="noopener">amongst others</a>.</p>
-
 				</div>
 			</section>
 		</Layout>
