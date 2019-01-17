@@ -28,8 +28,46 @@ h1 {
 	}
 }
 
+a {
+	color: $palette-plain;
+	transition: 0.15s all;
+	text-decoration: none;
+
+	&:hover {
+		color: $palette-yellow;
+	}
+
+	&:focus {
+		outline: 3px auto $palette-yellow;
+	}
+
+	&[rel="noopener"] {
+		text-decoration: underline;
+	}
+}
+
+blockquote {
+	border-left: $base-spacing / 2 solid rgba($palette-plain, 0.15);
+	padding-left: $base-spacing;
+	margin-left: 0;
+
+	p {
+		font-weight: 500;
+		padding-left: $base-spacing;
+		letter-spacing: 0;
+		font-style: italic;
+
+		&:first-of-type {
+			font-weight: 500;
+		}
+	}
+}
+
 p {
 	&:first-of-type {
 		color: $palette-plain;
+	}
+	&:last-of-type {
+		margin-bottom: 0;
 	}
 }
