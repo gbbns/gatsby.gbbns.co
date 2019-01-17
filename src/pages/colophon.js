@@ -23,7 +23,7 @@ export default function Colophon({ data }) {
 						<li>v3. is now being generated with <a href="https://www.gatsbyjs.org/" rel="noopener">the pretty awesome Gatsby</a></li>
 					</ul>
 					<p>The site is developed using <a href="https://code.visualstudio.com/" rel="noopener">Visual Studio Code</a>.</p>
-					<p>The site is hosted on <a href="https://github.com/gbbns/gbbns.co" rel="noopener">GitHub</a> and published to <a href="https://www.netlify.com/" rel="noopener">Netlify</a></p>
+					<p>The site is hosted on <a href="https://github.com/gbbns/gatsby.gbbns.co" rel="noopener">GitHub</a> and published to <a href="https://www.netlify.com/" rel="noopener">Netlify</a></p>
 					<p>I will keep this page updated as I make more changes to the site.</p>
 				</div>
 			</section>
