@@ -1,6 +1,10 @@
 .c-content {
 	display: grid;
 
+	& + & {
+		margin-top: $base-spacing * 6;
+	}
+
 	@media (min-width: 40em) {
 		grid-template-columns: repeat(8, 1fr);
 	}
@@ -17,9 +21,14 @@
 			grid-column-start: 2;
 			grid-column-end: 9;
 		}
+
+		& + & {
+			margin-top: $base-spacing * 4;
+		}
 	}
 
 	&__meta {
+		margin: 0;
 
 		&-tag {
 			background: $palette-mid--light;
