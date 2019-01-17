@@ -13,13 +13,14 @@ body {
 
 h1, h2, h3, h4 {
 	font-family: Spectral;
+	margin: 0;
 }
 
-h1{
+h1 {
     color: #272727;
     font-size: 4rem;
     line-height: 1.2;
-    margin-bottom: 0
+    margin: 0
 }
 
 @media screen and (min-width: 48em) {

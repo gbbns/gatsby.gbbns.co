@@ -1,9 +1,11 @@
 .o-content {
+	padding-top: $base-spacing * 3;
 
 	@media (min-width: 40em) {
 		display: grid;
 		grid-template-columns: 4fr 8fr;
 		grid-gap: $base-spacing * 2;
+		padding-top: $base-spacing * 5;
 	}
 
 	&__sidebar {

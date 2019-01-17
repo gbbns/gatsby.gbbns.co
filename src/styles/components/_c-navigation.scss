@@ -2,13 +2,21 @@
 
 	&__primary {
 		list-style-type: none;
+		margin: 0;
 		padding-left: 0;
+		margin-bottom: $base-spacing * 2;
+
+		@media (min-width: 48em) {
+			margin-bottom: $base-spacing * 5;
+		}
 	}
 
 	&__link {
 		color: $palette-plain;
-		font-size: 1rem;
-		line-height: 1.5;
+		display: block;
+		font-size: 1.2rem;
+		line-height: 1.4;
+		padding: $base-spacing / 3 0;
 		transition: 0.15s all;
 		text-decoration: none;
 

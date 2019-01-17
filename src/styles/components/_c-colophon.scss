@@ -1,0 +1,40 @@
+.c-colophon {
+	&__link {
+		color: $palette-plain;
+		font-family: 'Space Mono';
+		font-size: 1.6rem;
+		font-weight: normal;
+		margin: 0;
+		transition: 0.15s all;
+		text-decoration: none;
+
+		&:hover {
+			color: $palette-yellow;
+		}
+
+		&:after {
+			color: $palette-plain;
+			content: '-';
+			display: block;
+		}
+
+		&.is-active {
+			color: $palette-yellow;
+		}
+	}
+
+	&__list {
+		list-style-type: none;
+		margin-top: 0;
+		padding: 0;
+	}
+
+	&__items {
+		font-size: 1rem;
+		margin-bottom: $base-spacing / 3;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}
