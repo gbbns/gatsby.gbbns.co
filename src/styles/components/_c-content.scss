@@ -5,7 +5,6 @@
 		grid-template-columns: repeat(8, 1fr);
 	}
 
-
 	&__title {
 		@media (min-width: 40em) {
 			grid-column-start: 1;
