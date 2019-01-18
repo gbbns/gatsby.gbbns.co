@@ -33,7 +33,7 @@ export default function Index({ data }) {
 								<h2>
 									<Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
 								</h2>
-								<p className="c-content__meta">Written: {post.frontmatter.date}</p>
+								<p className="c-content__meta">Written about {post.frontmatter.date}</p>
 								<p>{post.excerpt}</p>
 							</article>
 						)
