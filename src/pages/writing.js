@@ -11,7 +11,7 @@ export default function Writing({ data }) {
 	const { edges: posts } = data.allMarkdownRemark
 	return (
 		<Layout>
-			<SEO title="What is Chris Gibbons writing?" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="What is Chris Gibbons writing?" keywords={['chris gibbons', 'blog articles', 'gatsby']} />
 
 			<section className="c-content">
 				<div className="c-content__title">

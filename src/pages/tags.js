@@ -18,7 +18,7 @@ const TagsPage = ({
 	},
 }) => (
 		<Layout>
-			<SEO title="{title" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="Tags list for blog articles on gbbns.co" />
 
 			<section className="c-content">
 				<div className="c-content__title">

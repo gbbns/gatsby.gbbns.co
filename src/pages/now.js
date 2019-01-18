@@ -8,7 +8,7 @@ import '../styles/main.scss'
 export default function Now({ data }) {
 	return (
 		<Layout>
-			<SEO title="So what is Chris Gibbons doing now?" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="So what is Chris Gibbons doing now?" keywords={['gatsby', 'now page', 'what is chris gibbons doing now', 'accessibility']} />
 
 			<section className="c-content">
 				<div className="c-content__title">

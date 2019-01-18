@@ -8,7 +8,7 @@ import '../styles/main.scss'
 export default function Colophon({ data }) {
 	return (
 		<Layout>
-			<SEO title="A colophon for gbbns.co" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="A colophon for gbbns.co" keywords={['colophon', 'how this site is made', 'gbbns.co', 'accessibility']} />
 
 			<section className="c-content">
 				<div className="c-content__title">

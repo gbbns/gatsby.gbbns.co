@@ -8,7 +8,7 @@ import '../styles/main.scss'
 export default function Uses({ data }) {
 	return (
 		<Layout>
-			<SEO title="What does Chris Gibbons use day-to-day?" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="What does Chris Gibbons use day-to-day?" keywords={['uses', 'what is chris gibbons using', 'accessibility']} />
 
 			<section className="c-content">
 				<div className="c-content__title">

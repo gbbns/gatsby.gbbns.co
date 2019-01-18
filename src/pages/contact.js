@@ -8,7 +8,7 @@ import '../styles/main.scss'
 export default function Contact({ data }) {
 	return (
 		<Layout>
-			<SEO title="Contact Chris" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="Contact Chris" keywords={['chris gibbons', 'contact chris gibbons', 'accessibility']} />
 
 			<section className="c-content">
 				<div className="c-content__title">

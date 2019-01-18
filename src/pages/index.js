@@ -11,7 +11,7 @@ export default function Index({ data }) {
 	const { edges: posts } = data.allMarkdownRemark
 	return (
 		<Layout>
-			<SEO title="Home" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="Home" keywords={['chris gibbons', 'front end developer', 'manchester front end', 'gatsby', 'accessibility']} />
 
 			<section className="c-content">
 				<div className="c-content__title">

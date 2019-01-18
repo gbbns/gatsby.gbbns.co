@@ -8,7 +8,7 @@ import '../styles/main.scss'
 export default function Speaking({ data }) {
 	return (
 		<Layout>
-			<SEO title="Speaking events" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="Speaking events" keywords={['chris gibbons', 'public speaking', 'accessibility']} />
 
 			<section className="c-content">
 				<div className="c-content__title">

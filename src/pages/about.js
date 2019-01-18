@@ -8,7 +8,7 @@ import '../styles/main.scss'
 export default function About({ data }) {
 	return (
 		<Layout>
-			<SEO title="About Chris Gibbons" keywords={['gatsby', 'application', 'react']} />
+			<SEO title="About Chris Gibbons" keywords={['profile', 'chris gibbons', 'about chris', 'accessibility']} />
 
 			<section className="c-content">
 				<div className="c-content__title">
