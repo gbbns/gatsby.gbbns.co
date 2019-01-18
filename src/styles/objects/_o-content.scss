@@ -1,7 +1,6 @@
 .o-content {
 	display: grid;
 	padding-top: $base-spacing * 3;
-
 	grid-template-areas:
 		"masthead"
 		"content"
@@ -14,6 +13,7 @@
 			"colophon content"
 			". content"
 			"footer footer";
+		grid-template-columns: 4fr 8fr;
 		grid-gap: $base-spacing * 2;
 		padding-top: $base-spacing * 5;
 	}
