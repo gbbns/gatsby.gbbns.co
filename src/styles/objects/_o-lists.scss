@@ -1,0 +1,16 @@
+// Horizontal list //
+.h-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+
+	&__item {
+		list-style: none;
+		flex: 1 1 50%;
+		margin-bottom: $base-spacing;
+
+		@media (min-width: 768px) {
+			flex: 1 1 20%;
+		}
+	}
+}
