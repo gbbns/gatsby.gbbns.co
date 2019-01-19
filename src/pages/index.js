@@ -12,7 +12,7 @@ export default function Index({ data }) {
   return (
     <Layout>
       <SEO
-        title="Home"
+        title="Front end developer &amp; accessiblity consultant"
         keywords={[
           'chris gibbons',
           'front end developer',
