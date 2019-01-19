@@ -12,7 +12,7 @@ export default function Uses({ data }) {
 
 			<section className="c-content">
 				<div className="c-content__title">
-					<h1>Uses</h1>
+					<h1>What do I use?</h1>
 				</div>
 				<div className="c-content__body">
 					<p>Sometimes I get asked what 'what make is that', 'where did you get that from' or just what tools etc. I use day to day, and after reading the <a href="https://wesbos.com/uses" rel="noopener">uses page of at Wes Bos' site</a> I thought I'd shamelessly copy the format :)</p>
