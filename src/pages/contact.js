@@ -12,7 +12,7 @@ export default function Contact({ data }) {
 
 			<section className="c-content">
 				<div className="c-content__title">
-					<h1>Contact</h1>
+					<h1>Get in contact with Chris</h1>
 				</div>
 				<div className="c-content__body">
 					<p>Whether you have a question you'd like to ask, a request for me to speak at your event or you want me to help with FE or consult on your project then feel free to get in touch.</p>

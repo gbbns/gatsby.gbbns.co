@@ -12,7 +12,7 @@ export default function Speaking({ data }) {
 
 			<section className="c-content">
 				<div className="c-content__title">
-					<h1>Speaking</h1>
+					<h1>Events where Chris is/has spoken</h1>
 				</div>
 				<div className="c-content__body">
 					<h2>Upcoming talks</h2>

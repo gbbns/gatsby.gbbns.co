@@ -12,7 +12,7 @@ export default function About({ data }) {
 
 			<section className="c-content">
 				<div className="c-content__title">
-					<h1>About</h1>
+					<h1>About this chap called Chris Gibbons</h1>
 				</div>
 				<div className="c-content__body">
 					<h2>TL;DR</h2>
