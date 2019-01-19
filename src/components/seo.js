@@ -8,15 +8,20 @@ function SEO({ description, lang, meta, keywords, title }) {
     <StaticQuery
       query={detailsQuery}
       render={data => {
-				const metaDescription = data.site.siteMetadata.author + " | " + (description || data.site.siteMetadata.siteDescription);
+        const metaDescription =
+          data.site.siteMetadata.author +
+          ' | ' +
+          (description || data.site.siteMetadata.siteDescription)
         return (
           <Helmet
             htmlAttributes={{
               lang,
             }}
-						title={title}
-						defaultTitle={data.site.siteMetadata.author}
-						titleTemplate={`${data.site.siteMetadata.author} | %s - ${data.site.siteMetadata.siteTitleTag}`}
+            title={title}
+            defaultTitle={data.site.siteMetadata.author}
+            titleTemplate={`${data.site.siteMetadata.author} | %s - ${
+              data.site.siteMetadata.siteTitleTag
+            }`}
             meta={[
               {
                 name: 'description',
@@ -24,7 +29,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: 'og:title',
-								content: title,
+                content: title,
               },
               {
                 property: 'og:description',
