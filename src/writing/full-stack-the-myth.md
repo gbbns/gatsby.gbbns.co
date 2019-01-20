@@ -17,8 +17,8 @@ My plan is to write this post in the open, in the meantime these are my current 
 * FE is a spectrum
 	* UX <----> HTML/CSS <----> JS/Engineering
 * Everyone has forgotten about standards
-* More than `just HTML`
-	* What about accessibility?
+* More than just HTML
+  * What about accessibility?
 	* Performance anyone?
 	* Cross browser testing...
 	* Devices! Devices! Devices!
