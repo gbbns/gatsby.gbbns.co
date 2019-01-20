@@ -86,3 +86,12 @@ p {
 		margin-bottom: 0;
 	}
 }
+
+ul {
+	li {
+		p,
+		p:first-of-type {
+			color: $palette-mid--light;
+		}
+	}
+}
