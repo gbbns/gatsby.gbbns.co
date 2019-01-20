@@ -4,7 +4,6 @@
 
 	@media (min-width: 40em) {
 		margin-top: 0;
-
 	}
 	&__link {
 		color: $palette-plain;
@@ -32,7 +31,7 @@
 
 	&__list {
 		list-style-type: none;
-		margin-top: 0;
+		margin: 0;
 		padding: 0;
 	}
 

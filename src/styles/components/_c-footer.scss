@@ -1,3 +1,8 @@
 .c-footer {
 	grid-area: footer;
+	margin: $base-spacing * 4 0;
+
+	@media (min-width: 40em) {
+		margin: $base-spacing * 6 0;
+	}
 }
