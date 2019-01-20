@@ -10,10 +10,11 @@
 	}
 
 	&__title {
-		margin-bottom: $base-spacing * 3;
+		margin-bottom: $base-spacing * 1.5;
 		@media (min-width: 40em) {
 			grid-column-start: 1;
 			grid-column-end: 9;
+			margin-bottom: $base-spacing * 3;
 		}
 	}
 

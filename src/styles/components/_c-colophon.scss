@@ -1,6 +1,11 @@
 .c-colophon {
 	grid-area: colophon;
+	margin-top: $base-spacing * 4;
 
+	@media (min-width: 40em) {
+		margin-top: 0;
+
+	}
 	&__link {
 		color: $palette-plain;
 		font-family: 'Space Mono';
