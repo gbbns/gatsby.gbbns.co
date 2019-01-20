@@ -29,7 +29,7 @@ export default function About({ data }) {
             <li>Web Standards</li>
             <li>Web Accessibility</li>
           </ul>
-          <h3>what I don't do or don't do a lot of</h3>
+          <h3>What I don't do or don't do a lot of</h3>
           <ul>
             <li>Backend development</li>
             <li>Design (though I love interaction design!)</li>
