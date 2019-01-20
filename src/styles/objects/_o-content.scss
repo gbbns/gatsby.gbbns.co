@@ -23,9 +23,10 @@
 	}
 
 	&__body {
+		align-content: start;
 		display: grid;
 		grid-area: content;
+		grid-template-columns: 1fr;
 		justify-content: start;
-		align-content: start;
 	}
 }
