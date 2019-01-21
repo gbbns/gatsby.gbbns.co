@@ -17,8 +17,6 @@ body {
 }
 
 h1, h2, h3, h4 {
-	color: $palette-yellow;
-	font-family: 'Spectral';
 	margin: 0;
 
 	+ p {
@@ -27,16 +25,18 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 2.25rem;
-	letter-spacing: -2px;
-	line-height: 1.1;
+	font-family: 'Rubik';
+	color: $palette-yellow;
+	text-transform: uppercase;
+	font-size: 2.3rem;
+	font-weight: 900;
 	margin: 0;
 	@media (min-width: 40em) {
-		font-size: 3rem;
+		font-size: 4rem;
 		line-height: 1;
 	}
 	@media (min-width: 48em) {
-		font-size:5rem;
+		font-size:6rem;
 	}
 }
 

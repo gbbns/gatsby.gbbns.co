@@ -23,6 +23,7 @@ export const Colophon = () => {
         <li className="c-colophon__items">H1 colour: #272727</li>
         <li className="c-colophon__items">H2 colour: #FFFFFF</li>
         <li className="c-colophon__items">Bodycopy colour: #A3A3A3</li>
+				<li className="c-colophon__items">Theme: Light / Dark</li>
       </ul>
     </aside>
   )
