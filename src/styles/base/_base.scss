@@ -17,6 +17,7 @@ body {
 }
 
 h1, h2, h3, h4 {
+	color: $palette-yellow;
 	font-family: 'Spectral';
 	margin: 0;
 
@@ -26,8 +27,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	color: #272727;
-	font-size: 2.5rem;
+	font-size: 2.25rem;
 	letter-spacing: -2px;
 	line-height: 1.1;
 	margin: 0;
@@ -39,6 +39,38 @@ h1 {
 		font-size:5rem;
 	}
 }
+
+h2 {
+	font-size: 1.5rem;
+	letter-spacing: -2px;
+	line-height: 1.1;
+	margin: 0;
+	margin-bottom: $base-spacing;
+	@media (min-width: 40em) {
+		font-size: 2rem;
+		line-height: 1;
+	}
+	@media (min-width: 48em) {
+		font-size:3.5rem;
+	}
+}
+
+h3 {
+	font-size: 1.25rem;
+	letter-spacing: -2px;
+	line-height: 1.1;
+	margin: 0;
+	margin-bottom: $base-spacing / 2;
+	@media (min-width: 40em) {
+		font-size: 1.75rem;
+		line-height: 1;
+	}
+	@media (min-width: 48em) {
+		font-size:2rem;
+	}
+}
+
+
 
 a {
 	color: $palette-plain;
@@ -89,6 +121,8 @@ p {
 }
 
 ul {
+	margin: 0;
+	margin-bottom: $base-spacing * 1.5;
 	li {
 		p,
 		p:first-of-type {
