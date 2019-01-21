@@ -18,8 +18,7 @@ export default function About({ data }) {
           <h1>About this chap called Chris Gibbons</h1>
         </div>
         <div className="c-content__body">
-          <h2>TL;DR</h2>
-          <h3>What I do &amp; specialise in</h3>
+          <h2>What I do &amp; specialise in</h2>
           <ul>
             <li>HTML</li>
             <li>CSS (Sass)</li>
@@ -29,7 +28,7 @@ export default function About({ data }) {
             <li>Web Standards</li>
             <li>Web Accessibility</li>
           </ul>
-          <h3>What I don't do or don't do a lot of</h3>
+          <h2>What I don't do or don't do a lot of</h2>
           <ul>
             <li>Backend development</li>
             <li>Design (though I love interaction design!)</li>
