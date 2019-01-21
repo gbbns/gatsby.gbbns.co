@@ -46,13 +46,6 @@ h2 {
 	line-height: 1.1;
 	margin: 0;
 	margin-bottom: $base-spacing;
-	@media (min-width: 40em) {
-		font-size: 2rem;
-		line-height: 1;
-	}
-	@media (min-width: 48em) {
-		font-size:3.5rem;
-	}
 }
 
 h3 {
@@ -61,16 +54,7 @@ h3 {
 	line-height: 1.1;
 	margin: 0;
 	margin-bottom: $base-spacing / 2;
-	@media (min-width: 40em) {
-		font-size: 1.75rem;
-		line-height: 1;
-	}
-	@media (min-width: 48em) {
-		font-size:2rem;
-	}
 }
-
-
 
 a {
 	color: $palette-plain;
