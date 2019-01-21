@@ -99,6 +99,11 @@ p {
 
 	&:last-of-type {
 		margin-bottom: 0;
+
+		+ h2,
+		+ h3 {
+			margin-top: $base-spacing * 1.5;
+		}
 	}
 }
 
