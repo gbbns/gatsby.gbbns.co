@@ -33,7 +33,7 @@ module.exports = {
 			resolve: `gatsby-plugin-web-font-loader`,
 			options: {
 				google: {
-					families: [`Rubik`, `Space Mono`]
+					families: [`Rubik:900`, `Space Mono`]
 				}
 			}
 		},

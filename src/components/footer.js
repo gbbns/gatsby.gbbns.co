@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 export const Footer = () => {
   const copyrightYear = new Date().getFullYear()
   return (
-    <footer class="c-footer">
+    <footer className="c-footer">
       <div className="card card--message">
         <h4>
           As you've probably spotted I'm designing &amp; building this site
