@@ -5,7 +5,7 @@ export const LastUpdated = ({ dateTime, lastUpdated }) => {
     <footer>
       <p>
         <small>
-          Page last updated: <time datetime={dateTime}>{lastUpdated}</time>
+          Page last updated: <time dateTime={dateTime}>{lastUpdated}</time>
         </small>
       </p>
     </footer>

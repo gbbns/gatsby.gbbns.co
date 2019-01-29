@@ -6,6 +6,8 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../layouts/layout'
 import SEO from '../components/seo'
 
+import '../styles/main.scss'
+
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
