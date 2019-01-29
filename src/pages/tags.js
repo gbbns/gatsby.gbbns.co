@@ -9,6 +9,8 @@ import Layout from '../layouts/layout'
 import SEO from '../components/seo'
 import { Link, graphql } from 'gatsby'
 
+import '../styles/main.scss'
+
 const TagsPage = ({
   data: {
     allMarkdownRemark: { group },
