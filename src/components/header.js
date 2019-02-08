@@ -22,14 +22,14 @@ const Header = () => (
     render={data => (
       <header className="o-content__sidebar">
         <Link to="/" className="c-masthead" activeClassName="is-active">
-          <span className="c-masthead__item">
+          <span className="c-masthead__item" aria-hidden="true">
             {data.site.siteMetadata.urlSlug}
           </span>
           <span className="c-masthead__item">
             {data.site.siteMetadata.author}
           </span>
           <span className="c-masthead__item">
-            {data.site.siteMetadata.siteTitleTag}/
+						{data.site.siteMetadata.siteTitleTag}<span aria-hidden="true">/</span>
           </span>
         </Link>
 
