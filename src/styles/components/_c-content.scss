@@ -25,7 +25,24 @@
 		}
 
 		& + & {
-			margin-top: $base-spacing * 4;
+			overflow: visible;
+			margin: $base-spacing * 4 0 $base-spacing * 3;
+
+			&::before {
+				content: '...';
+				display: inline-block;
+				margin-left: 0.6em;
+				color: #fff;
+				position: relative;
+				top: -1.4rem;
+				font-weight: 400;
+				font-style: italic;
+				font-size: 1.4rem;
+				letter-spacing: 1.2rem;
+				line-height: 1;
+				text-align: center;
+				width: 100%;
+			}
 		}
 	}
 
