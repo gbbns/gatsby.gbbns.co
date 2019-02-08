@@ -56,11 +56,17 @@ h3 {
 
 a {
 	color: $palette-plain;
+	font-weight: bold;
 	transition: 0.15s all;
 	text-decoration: none;
 
+	&:visited {
+		text-decoration: none;
+	}
+
 	&:hover {
-		color: $palette-yellow;
+		text-decoration: underline;
+		text-decoration-skip-ink: auto;
 	}
 
 	&:focus {
@@ -70,6 +76,7 @@ a {
 	&[rel="noopener"] {
 		text-decoration: underline;
 	}
+
 }
 
 blockquote {
@@ -108,6 +115,10 @@ p {
 		+ h3 {
 			margin-top: $base-spacing * 1.5;
 		}
+	}
+
+	a {
+		color: $palette-yellow;
 	}
 }
 
