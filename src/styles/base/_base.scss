@@ -74,6 +74,7 @@ a {
 
 blockquote {
 	border-left: $base-spacing / 2 solid rgba($palette-plain, 0.15);
+	display: inline-block;
 	padding-left: $base-spacing;
 	margin-left: 0;
 
@@ -90,11 +91,14 @@ blockquote {
 }
 
 p {
+	display: inline-block;
 	margin: 0 0 $base-spacing * 1.5 0;
 
 	&:first-of-type {
 		color: $palette-plain;
+		font-size: 1.125rem;
 		margin-top: 0;
+		margin-bottom: $base-spacing * 2;
 	}
 
 	&:last-of-type {

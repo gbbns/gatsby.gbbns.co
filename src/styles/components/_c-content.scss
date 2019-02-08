@@ -30,7 +30,11 @@
 	}
 
 	&__meta {
-		margin: 0;
+		margin: 0 0 $base-spacing * 2 0;
+
+		@media (min-width: 40em) {
+			margin-bottom: $base-spacing * 7;
+		}
 
 		&-items {
 			margin-left: 0;

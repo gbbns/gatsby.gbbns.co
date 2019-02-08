@@ -3,7 +3,7 @@ categories: "mid-life"
 tags: ['mid-life', 'plans', 'future']
 published: true
 title: "40 Before. Or I think my mid-life crisis has started"
-date: "2019-01-28T08:11:35+01:00"
+date: 2019-01-28T08:11:35+01:00
 description: "Crisis"
 type: "article"
 author: "Chris Gibbons"
@@ -26,13 +26,26 @@ Then, suddenly and quite without realising, I found myself searching terms such 
 
 ```[Family 'manifesto' has fed into this]```
 
-```[What is the family 'manifesto'?]```
+### What is the family 'manifesto'?
+
+> manifesto <br />
+> /manɪˈfɛstəʊ/ <br />
+> noun <br />
+> a public declaration of policy and aims, especially one issued before an election by a political party or candidate.
+
+Simply put it's a list of items that we, as a family, have &rdquo;signed up to&ldquo; and agreed to try &amp; achieve.
+
+I'm not going to be making this list _fully_ public, but it includes items such as:
+
+* Be debt free, as much as possible, before we hit _xx_ age
+* Plan for 40th birthday
+* Live abroad
 
 ## Bucket list
 
 At a guess, I'd say that most folks have some kind of list in their heads -- whether they'd admit to it remains to be seen -- of things they'd like to see/do/experience before the end.
 
-And I'm no different; For instance, those close to me know that it is a massive ambition to live &amp; work in Australia, I'd also love to go travelling (probably not as much of a backpacker now, though) and there is a huge list of countries/places/sights that I wish to see.
+And I'm no different; For instance, those close to me know that it is a massive ambition to live &amp; work in Australia, I'd also love to go travelling (probably not as much of a backpacker now, though) and there is a huge list of countries/places/sights that I wish to see, some of which are listed below.
 
 Enter...
 
