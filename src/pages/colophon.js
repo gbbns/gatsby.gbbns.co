@@ -23,11 +23,12 @@ export default function Colophon({ data }) {
           <h1>A colophon for gbbns.co</h1>
         </div>
         <div className="c-content__body">
-          <p>Well, this is awkward.</p>
+          <p>In true developer fashion I've used a variety of setups over the years to build this site.</p>
           <p>
             This is currently the third iteration of this site, every version
-            has served a purpose, and served it very well.
+            has served a purpose, and served it very well. At the minute, I've got to say that <a href="https://gatsbyjs.org" rel="noopener">Gatsby</a> is such a great tool to use, it's ridiculously easy to get up and running, is lightening fast and overall I really can't wait to get using it in more detail
           </p>
+					<p>Here's a short history of <a href="/">gbbns.co</a></p>
           <ul>
             <li>
               v1. was developed using{' '}
@@ -48,7 +49,7 @@ export default function Colophon({ data }) {
               .
             </li>
             <li>
-              v3. is now being generated with{' '}
+              v3 (current). is now being generated with{' '}
               <a href="https://www.gatsbyjs.org/" rel="noopener">
                 the pretty awesome Gatsby
               </a>

@@ -10,7 +10,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       render={data => {
         const metaDescription =
           data.site.siteMetadata.author +
-          ' | ' +
+          ' is a ' +
           (description || data.site.siteMetadata.siteDescription)
         return (
           <Helmet
