@@ -39,8 +39,7 @@ const Header = () => (
               <Link
                 to="/about/"
                 className="c-navigation__link"
-                activeClassName="is-active"
-              >
+                activeClassName="is-active">
                 About
               </Link>
             </li>

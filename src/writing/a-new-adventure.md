@@ -30,7 +30,7 @@ I'm a week on from the conference trying to make sense &amp; distil things, but 
 
 ### The fringe
 
-The fringe events are an integral part of the festivies for New Adventures, and despite sporting a knee injury, the bowling was a great spectacle and certainly got folk in the right frame of mind for the following day.
+The fringe events are an integral, some would say _legendary_ part of the festivies for New Adventures where f, and despite sporting a knee injury, the bowling was a great spectacle and certainly got folk in the right frame of mind for the following day.
 
 ---
 
