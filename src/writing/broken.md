@@ -1,13 +1,13 @@
 ---
-categories: "personal"
-tags: ["personal", "motivation"]
+categories: 'personal'
+tags: ['personal', 'motivation']
 published: true
-title: "Broken"
+title: 'Broken'
 date: 2016-08-25T08:30:00+01:00
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/broken"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/broken'
 ---
 
 I can't pinpoint _exactly_ when, but I've come to the realisation that the daily routine I've worked so hard to build is broken.
@@ -33,19 +33,23 @@ Dan suggested following [his](https://trello.com/b/wunSYyAp/bucket-list) and [Fr
 This is such a simple, yet mind-blowingly brilliant suggestion.
 
 ### Public sharing
+
 In the spirit of things I've got this post written up, and have already started with the boards.
 
 #### Public Trello boards
-* [Personal development](https://trello.com/b/qDGenMst/personal-development)
-* [40 before](https://trello.com/b/PiAO5Jk0/40-before)
+
+- [Personal development](https://trello.com/b/qDGenMst/personal-development)
+- [40 before](https://trello.com/b/PiAO5Jk0/40-before)
 
 #### Half finished posts
-* What the FUX
-* The art of side projects
-* Meetups
-* Vacation
+
+- What the FUX
+- The art of side projects
+- Meetups
+- Vacation
 
 ## Fin.
+
 The final thing we settled on was a pact. A pact of support for each other, one where we motivate and help when either is feeling at a particular low ebb, or just in need of a kick.
 
 For this, I can't thank Dan enough.

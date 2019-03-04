@@ -1,13 +1,13 @@
 ---
-categories: "mid-life"
+categories: 'mid-life'
 tags: ['mid-life', 'plans', 'future']
 published: true
-title: "40 Before. Or I think my mid-life crisis has started"
+title: '40 Before. Or I think my mid-life crisis has started'
 date: 2019-01-28T08:11:35+01:00
-description: "Crisis"
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/40-before"
+description: 'Crisis'
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/40-before'
 ---
 
 > &ldquo;a loss of self-confidence and feeling of anxiety or disappointment that can occur in early middle age.&rdquo;
@@ -20,11 +20,11 @@ I could go on, but I'm sure you get the idea.
 
 Then, suddenly and quite without realising, I found myself searching terms such as [&ldquo;what is a midlife crisis&rdquo;](https://www.google.co.uk/search?safe=off&ei=nxJPXKvBEdOj1fAP6O2-iAE&q=what+is+a+midlife+crisis&oq=what+is+a+mid&gs_l=psy-ab.3.0.0i20i263j0l9.11054.12443..13179...0.0..0.66.690.13......0....1..gws-wiz.......0i71j35i39j0i67j0i131i67j0i131j0i10i67.p36vaDOyC7s) or [&ldquo;when does a mid-life crisis start&rdquo;](https://www.google.co.uk/search?q=when+does+a+mid-life+crisis+start&oq=when+does+a+mid-life+crisis+start&aqs=chrome..69i57j0l4.485j0j1&sourceid=chrome&ie=UTF-8)
 
-```[Content to flesh out why I feel 'old']```
+`[Content to flesh out why I feel 'old']`
 
-```[What has this lead me to]```
+`[What has this lead me to]`
 
-```[Family 'manifesto' has fed into this]```
+`[Family 'manifesto' has fed into this]`
 
 ### What is the family 'manifesto'?
 
@@ -37,9 +37,9 @@ Simply put it's a list of items that we, as a family, have &rdquo;signed up to&l
 
 I'm not going to be making this list _fully_ public, but it includes items such as:
 
-* Be debt free, as much as possible, before we hit _xx_ age
-* Plan for 40th birthday
-* Live abroad
+- Be debt free, as much as possible, before we hit _xx_ age
+- Plan for 40th birthday
+- Live abroad
 
 ## Bucket list
 

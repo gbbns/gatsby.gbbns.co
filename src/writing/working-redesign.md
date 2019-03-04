@@ -1,13 +1,13 @@
 ---
-categories: "personal"
-tags: ["work", "personal"]
+categories: 'personal'
+tags: ['work', 'personal']
 published: true
-title: "Working redesign"
+title: 'Working redesign'
 date: 2016-01-28T07:00:00+01:00
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/working-redesign"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/working-redesign'
 ---
 
 I've never _truly_ been happy with my site, it's always been in a state of redesign, typical for a UI dev, eh?!

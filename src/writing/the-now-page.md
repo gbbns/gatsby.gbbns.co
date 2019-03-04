@@ -1,13 +1,13 @@
 ---
-categories: "personal"
-tags: ["work", "personal", "motivation"]
+categories: 'personal'
+tags: ['work', 'personal', 'motivation']
 published: true
-title: "The now page"
+title: 'The now page'
 date: 2016-04-01T11:00:00+01:00
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/the-now-page"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/the-now-page'
 ---
 
 I like the idea of a now page. It's got a point. It's not on the site to bullshit, it's there to tell people what you, or I, are doing _now_.

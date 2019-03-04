@@ -1,13 +1,13 @@
 ---
-categories: "personal"
-tags: ["work", "personal", "motivation"]
+categories: 'personal'
+tags: ['work', 'personal', 'motivation']
 published: true
-title: "Dealing with rejection"
+title: 'Dealing with rejection'
 date: 2016-07-12T08:30:00+01:00
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/dealing-with-rejection"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/dealing-with-rejection'
 ---
 
 "A rejection is nothing more than a necessary step in the pursuit of success" - Bo Bennett.
@@ -31,11 +31,13 @@ After gathering my thoughts, I took myself off somewhere quiet to reflect on thi
 I re-read my notes and tried to make a cohesive plan from them, it seemed to work, and on the train home that very night I made a start.
 
 ## Update
+
 It's been about a month since _the call_ and things have settled down. I still run things around in my head, still trying to figure out what I may have done wrong, always seemingly second guessing what actually went on, yet never fully figuring it out.
 
 The one thing I am glad about, however, is the fact I proactively reflected and made notes.
 
 ### Why?
+
 Simply put, had I not put myself through that extra hour or two of toil and emotion, then I wouldn't have the permanent reminder that I have now. I have some tangible thoughts to work towards.
 
 More importantly I have a goal.

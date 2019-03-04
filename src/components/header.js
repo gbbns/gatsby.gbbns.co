@@ -29,7 +29,8 @@ const Header = () => (
             {data.site.siteMetadata.author}
           </span>
           <span className="c-masthead__item">
-						{data.site.siteMetadata.siteTitleTag}<span aria-hidden="true">/</span>
+            {data.site.siteMetadata.siteTitleTag}
+            <span aria-hidden="true">/</span>
           </span>
         </Link>
 
@@ -39,7 +40,8 @@ const Header = () => (
               <Link
                 to="/about/"
                 className="c-navigation__link"
-                activeClassName="is-active">
+                activeClassName="is-active"
+              >
                 About
               </Link>
             </li>

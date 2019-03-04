@@ -1,13 +1,13 @@
 ---
-categories: "personal"
-tags: ["preview", "personal"]
+categories: 'personal'
+tags: ['preview', 'personal']
 published: true
-title: "A belated preview"
+title: 'A belated preview'
 date: 2016-03-06T08:30:00+01:00
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/a-belated-preview"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/a-belated-preview'
 ---
 
 This blog post is by no means going to cover the entire year, in-fact it may be irrelevant before it even gets published, all I will say is that this year is shaping up to be a good one, I can feel it.
@@ -16,12 +16,12 @@ Towards the end of last year I had a period of reflection. I looked back at what
 
 I&rsquo;ve a long list of skills I wish to develop:
 
-* [React.js](https://facebook.github.io/react/)
-* More advanced features of [Node.js](https://nodejs.org/)
-* Revisit and emphasise core HTML5 and CSS3 skills
-* Continue to look into [Sass](https://sass-lang.com/) and it's more intermediate/advanced uses
-* JavaScript. Not jQuery, but pure unadulterated JavaScript.
-* FE workflow = Grunt//Gulp
+- [React.js](https://facebook.github.io/react/)
+- More advanced features of [Node.js](https://nodejs.org/)
+- Revisit and emphasise core HTML5 and CSS3 skills
+- Continue to look into [Sass](https://sass-lang.com/) and it's more intermediate/advanced uses
+- JavaScript. Not jQuery, but pure unadulterated JavaScript.
+- FE workflow = Grunt//Gulp
 
 Trying to keep up to date with new tech, as well as ensure your key skills don&rsquo;t suffer, is such a difficult balance to strike. Everytime I load up [Twitter](https://twitter.com/_gbbns) a new technology or technique seems to be mentioned &mdash; probably more than I could ever wish to learn in two lifetimes.
 

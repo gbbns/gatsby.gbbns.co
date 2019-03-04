@@ -1,13 +1,13 @@
 ---
-categories: "web-development"
+categories: 'web-development'
 tags: ['web-development', 'conferences', 'new-adventure']
 published: false
-title: "A new adventure, my loves"
+title: 'A new adventure, my loves'
 date: 2019-01-30T08:11:35+01:00
-description: "A new adventure, my loves."
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/a-new-adventure"
+description: 'A new adventure, my loves.'
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/a-new-adventure'
 ---
 
 The &rdquo;New Adventures&ldquo; conference was one I always regretted never attending. Circumstances, and views of employers at the time, meant it was never a viable opportunity and I looked longingly at Twitter whilst people waxed lyrical about the event, the friendships made, the content shared and the overall experience that [Colly](https://www.colly.com) worked tirelessly to achieve.

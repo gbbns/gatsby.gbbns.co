@@ -1,13 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import { Link, graphql } from 'gatsby'
 // Utilities
 import kebabCase from 'lodash/kebabCase'
 
 // Components
 import Layout from '../layouts/layout'
 import SEO from '../components/seo'
-import { Link, graphql } from 'gatsby'
 
 import '../styles/main.scss'
 

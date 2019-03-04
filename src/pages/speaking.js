@@ -25,8 +25,8 @@ export default function Speaking({ data }) {
                 href="https://uxscotland.net/2019/sessions/index.php?session=97"
                 rel="noopener"
               >
-                UX Scotland: "And in the beginning there was HTML"<br />
-								 - 13th June 2019 - Edinburgh
+                UX Scotland: "And in the beginning there was HTML"
+                <br />- 13th June 2019 - Edinburgh
               </a>
             </li>
           </ul>
@@ -38,8 +38,9 @@ export default function Speaking({ data }) {
                 href="https://uxscotland.net/2018/sessions/index.php?session=93"
                 rel="noopener"
               >
-                UX Scotland: "How we became accidental accessibility champions, and how you could too!"<br />
-								 - 14th June 2018 - Edinburgh
+                UX Scotland: "How we became accidental accessibility champions,
+                and how you could too!"
+                <br />- 14th June 2018 - Edinburgh
               </a>
             </li>
             <li>
@@ -47,8 +48,8 @@ export default function Speaking({ data }) {
                 href="https://www.wearesigma.com/campdigital/2018/chris-gibbons/"
                 rel="noopener"
               >
-                Camp Digital: "Accidentally becoming accessibility champions"<br />
-								 - 2nd May 2018 - Manchester
+                Camp Digital: "Accidentally becoming accessibility champions"
+                <br />- 2nd May 2018 - Manchester
               </a>
             </li>
             <li>
@@ -56,8 +57,8 @@ export default function Speaking({ data }) {
                 href="https://www.meetup.com/frontenders-valtech/events/247610703/"
                 rel="noopener"
               >
-                Front Enders: "Our adventures with pattern libraries"<br />
-								 - Thursday 15th March - London:
+                Front Enders: "Our adventures with pattern libraries"
+                <br />- Thursday 15th March - London:
               </a>
             </li>
           </ul>

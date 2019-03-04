@@ -1,29 +1,29 @@
 .c-masthead {
-	color: $palette-plain;
-	font-size: 1.25rem;
-	font-weight: normal;
-	display: inline-block;
-	line-height: 1.2;
-	text-align: left;
-	margin-bottom: $base-spacing * 2;
+  color: $palette-plain;
+  font-size: 1.25rem;
+  font-weight: normal;
+  display: inline-block;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: $base-spacing * 2;
 
-	@media (min-width: 48em) {
-		margin-bottom: $base-spacing * 5;
-	}
+  @media (min-width: 48em) {
+    margin-bottom: $base-spacing * 5;
+  }
 
-	&:hover {
-		color: $palette-yellow;
-	}
+  &:hover {
+    color: $palette-yellow;
+  }
 
-	&__item {
-		display: block;
-		text-decoration: none;
-		position: relative;
-		margin: 0 0 $base-spacing 0;
+  &__item {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    margin: 0 0 $base-spacing 0;
 
-		&:first-child {
-			color: $palette-yellow;
-			text-transform: uppercase;
-		}
-	}
+    &:first-child {
+      color: $palette-yellow;
+      text-transform: uppercase;
+    }
+  }
 }

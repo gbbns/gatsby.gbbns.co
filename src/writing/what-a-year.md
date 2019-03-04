@@ -1,13 +1,13 @@
 ---
-categories: "personal"
-tags: ["work", "personal", "motivation"]
+categories: 'personal'
+tags: ['work', 'personal', 'motivation']
 published: true
-title: "What a year"
+title: 'What a year'
 date: 2016-02-04T08:30:00+01:00
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/what-a-year"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/what-a-year'
 ---
 
 It's now February 2016, almost a year to the day that Samuel was born, and things are only just beginning to slow down enough to actually gather my thoughts from the last 12 months.
@@ -20,11 +20,11 @@ In the wee small hours of 4th February, this prospect became a very real possibi
 
 As the day wore on things slowed, that is until 18:20, that was the moment things started.
 
-Then, on the morning of February 5th 2015 at 09:57am, my little boy was born, from this moment *everything* changed.
+Then, on the morning of February 5th 2015 at 09:57am, my little boy was born, from this moment _everything_ changed.
 
 The other notable event that happened was my change of jobs.
 
-This was a _*huge*_ event for me -- not quite as big as becoming a dad, however -- as after being with the amazing [Code Computerlove](https://www.codecomputerlove.com) for a little over *7.5* years, I decided to accept an offer at [Zuto](https://www.zuto.com).
+This was a _*huge*_ event for me -- not quite as big as becoming a dad, however -- as after being with the amazing [Code Computerlove](https://www.codecomputerlove.com) for a little over _7.5_ years, I decided to accept an offer at [Zuto](https://www.zuto.com).
 
 Still doing front end work, but now working _as_ part of a dedicated in-house team, rather than _for_ an in house team.
 

@@ -1,13 +1,13 @@
 ---
-categories: "personal"
-tags: ["work", "personal", "motivation"]
+categories: 'personal'
+tags: ['work', 'personal', 'motivation']
 published: true
-title: "Workflow happiness"
+title: 'Workflow happiness'
 date: 2016-02-15T08:30:00+01:00
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/workflow-happiness"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/workflow-happiness'
 ---
 
 Over the last couple of weeks I've had similar conversations with a few colleague &amp; friends with regards website CMS' systems and workflows, which in turn lead me to reflect on my current setup.

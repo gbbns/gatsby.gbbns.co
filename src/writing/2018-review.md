@@ -1,23 +1,23 @@
 ---
-categories: "personal"
+categories: 'personal'
 tags: [preview, personal]
 published: true
-title: "2018 review"
+title: '2018 review'
 date: 2019-01-22T13:59:50Z
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/2018-review"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/2018-review'
 ---
 
 ## Goals for 2018
 
-* Principal FE promotion
-* Take at least one holiday, either in the UK or abroad
-* Write more: Aim to publish at least 6 main blog posts in the year, as well as 12 shorter posts in the 'latest notes' section
-* Speak at least once, ideally at one of the following: a local (Manchester) meetup, speak at a (UK) meetup, or speak at a conference
-* Keep my website up to date
-* Start my bucket list website
+- Principal FE promotion
+- Take at least one holiday, either in the UK or abroad
+- Write more: Aim to publish at least 6 main blog posts in the year, as well as 12 shorter posts in the 'latest notes' section
+- Speak at least once, ideally at one of the following: a local (Manchester) meetup, speak at a (UK) meetup, or speak at a conference
+- Keep my website up to date
+- Start my bucket list website
 
 Looking at the list of &rsquo;goals&lsquo; that I set myself I&rsquo;m pretty happy, overall, with how things actually panned out.
 
@@ -31,9 +31,9 @@ This has been, without a doubt, my primary objective since joining Auto Trader t
 
 I spent some time reflecting on my careers and in all honesty, was pretty bummed not have have been given this promotion earlier. Looking at the reasons why this hasn't happened seemed to highlight a few things for me:
 
-* Staying in a job too long
-* Not creating the right opportunities around me
-* Being too blasé about my role and therefore not pushing myself enough
+- Staying in a job too long
+- Not creating the right opportunities around me
+- Being too blasé about my role and therefore not pushing myself enough
 
 After doing this exercise in reflection, as well as regaining a bit of focus, my efforts finally seemed to get me noticed and in July I was given the news I had been successful with the promotion. Nothing much has changed which, to be honest, I never really expected it, I guess I just wanted acknowledgment of the level I was really at.
 

@@ -30,7 +30,16 @@ export default function Now({ data }) {
 
           <h2>Photography</h2>
           <p>
-            <a href="https://www.instagram.com/_gbbns" rel="noopener">Improving my photography</a>, <a href="https://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_t1/" rel="noopener">with my new(ish) toy</a>
+            <a href="https://www.instagram.com/_gbbns" rel="noopener">
+              Improving my photography
+            </a>
+            ,{' '}
+            <a
+              href="https://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_t1/"
+              rel="noopener"
+            >
+              with my new(ish) toy
+            </a>
           </p>
 
           <h2>Work</h2>
@@ -45,13 +54,25 @@ export default function Now({ data }) {
               coffee
             </li>
             <li>
-              Making a better effort to attend more local industry events &amp; meetups such as <a href="https://nuxuk.org/" rel="noopener">NUX</a>, as well as the great events being run within <a href="https://www.autotrader.co.uk/" rel="noopener">Auto Trader</a>
+              Making a better effort to attend more local industry events &amp;
+              meetups such as{' '}
+              <a href="https://nuxuk.org/" rel="noopener">
+                NUX
+              </a>
+              , as well as the great events being run within{' '}
+              <a href="https://www.autotrader.co.uk/" rel="noopener">
+                Auto Trader
+              </a>
             </li>
           </ul>
 
           <h2>Reading</h2>
           <p>
-            Taking part in <a href="https://www.goodreads.com/user_challenges/10861757">GoodRead's reading challenge</a>.
+            Taking part in{' '}
+            <a href="https://www.goodreads.com/user_challenges/10861757">
+              GoodRead's reading challenge
+            </a>
+            .
           </p>
 
           <h2>This site</h2>
@@ -64,7 +85,19 @@ export default function Now({ data }) {
           <p>Keeping my dream of going to Australia alive.</p>
 
           <p>
-            Inspired by <a href="https://sivers.org/nowff" rel="noopener">Derik Sivers Now page</a>, via <a href="https://marcjenkins.co.uk/now/" rel="noopener">Marc Jenkins Now page</a>, <a href="https://nownownow.com" rel="noopener">amongst others</a>.
+            Inspired by{' '}
+            <a href="https://sivers.org/nowff" rel="noopener">
+              Derik Sivers Now page
+            </a>
+            , via{' '}
+            <a href="https://marcjenkins.co.uk/now/" rel="noopener">
+              Marc Jenkins Now page
+            </a>
+            ,{' '}
+            <a href="https://nownownow.com" rel="noopener">
+              amongst others
+            </a>
+            .
           </p>
         </div>
       </section>

@@ -1,13 +1,13 @@
 ---
-categories: "personal"
-tags: ["jekyll", "update", "hello"]
+categories: 'personal'
+tags: ['jekyll', 'update', 'hello']
 published: true
-title: "Welcome"
+title: 'Welcome'
 date: 2016-02-02T08:30:00+01:00
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/welcome"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/welcome'
 ---
 
 So, after countless promises over the past few years, here we are!
@@ -18,7 +18,7 @@ Hopefully as time progresses I&rsquo;ll get round to adding a little more colour
 
 In the mean time, check out my other channels:
 
-* [Last.fm](https://www.last.fm/user/jibubo)
-* [LinkedIn](https://uk.linkedin.com/in/cdgibbons)
-* [Twitter](https://www.twitter.com/_gbbns)
-* [Flickr](https://www.flickr.com/photos/jibubo/)
+- [Last.fm](https://www.last.fm/user/jibubo)
+- [LinkedIn](https://uk.linkedin.com/in/cdgibbons)
+- [Twitter](https://www.twitter.com/_gbbns)
+- [Flickr](https://www.flickr.com/photos/jibubo/)

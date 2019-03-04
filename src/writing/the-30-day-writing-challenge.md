@@ -1,13 +1,13 @@
 ---
-categories: "personal"
-tags: ["work", "personal", "motivation"]
+categories: 'personal'
+tags: ['work', 'personal', 'motivation']
 published: true
-title: "The 30 day writing challenge"
+title: 'The 30 day writing challenge'
 date: 2016-04-01T07:00:00+01:00
-description: ""
-type: "article"
-author: "Chris Gibbons"
-path: "/writing/the-30-day-writing-challenge"
+description: ''
+type: 'article'
+author: 'Chris Gibbons'
+path: '/writing/the-30-day-writing-challenge'
 ---
 
 I've known for a [while](/writing/motivation) that writing was going to be important to me this year, but as with all best laid plans...
@@ -20,8 +20,8 @@ I think the next feeling that passed, after the self gratifying thought that I'd
 
 And with that here are my goals for the next 30 days:
 
-* To write for _at least_ 30 minutes per day
-* To have _at least_ 10 posts published in April
+- To write for _at least_ 30 minutes per day
+- To have _at least_ 10 posts published in April
 
 Obviously these are only targets, in reality I know that I can be quite hard on myself so will inevitably want to smash them.
 

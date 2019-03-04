@@ -1,146 +1,150 @@
 html {
-	font-family: 'Space Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-	line-height: 1.25;
+  font-family: 'Space Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  line-height: 1.25;
 }
 
 body {
-	background: $palette-black;
-	color: $palette-mid--light;
-	font-size: 16px;
-	margin: 0 auto;
-	padding: 0 $base-spacing * 3;
+  background: $palette-black;
+  color: $palette-mid--light;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0 $base-spacing * 3;
 
-	@media (min-width: 40em) {
-		padding: 0;
-		width: calc(100vw - 10vw);
-	}
+  @media (min-width: 40em) {
+    padding: 0;
+    width: calc(100vw - 10vw);
+  }
 }
 
-h1, h2, h3, h4 {
-	margin: 0;
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 
-	+ p {
-		color: $palette-plain;
-	}
+  + p {
+    color: $palette-plain;
+  }
 }
 
 h1 {
-	font-family: 'Rubik';
-	color: $palette-yellow;
-	text-transform: uppercase;
-	font-size: 2.3rem;
-	font-weight: 900;
-	line-height: 0.85;
-	margin: 0;
-	@media (min-width: 40em) {
-		font-size: 3.5rem;
-	}
-	@media (min-width: 48em) {
-		font-size: 5rem;
-	}
+  font-family: 'Rubik';
+  color: $palette-yellow;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  font-weight: 900;
+  line-height: 0.85;
+  margin: 0;
+  @media (min-width: 40em) {
+    font-size: 3.5rem;
+  }
+  @media (min-width: 48em) {
+    font-size: 5rem;
+  }
 }
 
 h2 {
-	font-size: 1.5rem;
-	line-height: 1.1;
-	margin: 0;
-	margin-bottom: $base-spacing;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin: 0;
+  margin-bottom: $base-spacing;
 }
 
 h3 {
-	font-size: 1.25rem;
-	line-height: 1.1;
-	margin: 0;
-	margin-bottom: $base-spacing / 2;
+  font-size: 1.25rem;
+  line-height: 1.1;
+  margin: 0;
+  margin-bottom: $base-spacing / 2;
 }
 
 a {
-	color: $palette-plain;
-	font-weight: bold;
-	transition: 0.15s all;
-	text-decoration: none;
+  color: $palette-plain;
+  font-weight: bold;
+  transition: 0.15s all;
+  text-decoration: none;
 
-	&:visited {
-		text-decoration: none;
-	}
+  &:visited {
+    text-decoration: none;
+  }
 
-	&:hover {
-		text-decoration: underline;
-		text-decoration-skip-ink: auto;
-	}
+  &:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
+  }
 
-	&:focus {
-		outline: 3px auto $palette-yellow;
-	}
+  &:focus {
+    outline: 3px auto $palette-yellow;
+  }
 
-	&[rel="noopener"] {
-		text-decoration: underline;
-	}
-
+  &[rel='noopener'] {
+    text-decoration: underline;
+  }
 }
 
 blockquote {
-	border-left: $base-spacing / 2 solid rgba($palette-plain, 0.15);
-	display: inline-block;
-	padding-left: $base-spacing;
-	margin-left: 0;
+  border-left: $base-spacing / 2 solid rgba($palette-plain, 0.15);
+  display: inline-block;
+  padding-left: $base-spacing;
+  margin-left: 0;
 
-	p {
-		font-weight: 500;
-		padding-left: $base-spacing;
-		letter-spacing: 0;
-		font-style: italic;
+  p {
+    font-weight: 500;
+    padding-left: $base-spacing;
+    letter-spacing: 0;
+    font-style: italic;
 
-		&:first-of-type {
-			font-weight: 500;
-		}
-	}
+    &:first-of-type {
+      font-weight: 500;
+    }
+  }
 }
 
 p {
-	display: inline-block;
-	margin: 0 0 $base-spacing * 1.5 0;
+  display: inline-block;
+  margin: 0 0 $base-spacing * 1.5 0;
 
-	&:first-of-type {
-		color: $palette-plain;
-		font-size: 1.125rem;
-		margin-top: 0;
-		margin-bottom: $base-spacing * 2;
-	}
+  &:first-of-type {
+    color: $palette-plain;
+    font-size: 1.125rem;
+    margin-top: 0;
+    margin-bottom: $base-spacing * 2;
+  }
 
-	&:last-of-type {
-		margin-bottom: 0;
+  &:last-of-type {
+    margin-bottom: 0;
 
-		+ h2,
-		+ h3 {
-			margin-top: $base-spacing * 1.5;
-		}
-	}
+    + h2,
+    + h3 {
+      margin-top: $base-spacing * 1.5;
+    }
+  }
 
-	a {
-		color: $palette-yellow;
-	}
+  a {
+    color: $palette-yellow;
+  }
 }
 
 ul {
-	margin: 0;
-	margin-bottom: $base-spacing * 1.5;
-	li {
-		p,
-		p:first-of-type {
-			color: $palette-mid--light;
-		}
-	}
+  margin: 0;
+  margin-bottom: $base-spacing * 1.5;
+  li {
+    p,
+    p:first-of-type {
+      color: $palette-mid--light;
+    }
+  }
 }
 
 hr {
-	display: block;
-	border: 0;
-	text-align: center;
-	overflow: visible;
-	margin: $base-spacing * 4 0 $base-spacing * 3;
+  display: block;
+  border: 0;
+  text-align: center;
+  overflow: visible;
+  margin: $base-spacing * 4 0 $base-spacing * 3;
 
-	&::before {
+  &::before {
     content: '...';
     display: inline-block;
     margin-left: 0.6em;
@@ -152,5 +156,5 @@ hr {
     font-size: 1.4rem;
     letter-spacing: 1.2rem;
     line-height: 1;
-	}
+  }
 }
