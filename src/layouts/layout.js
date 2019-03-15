@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Header from '../components/header'
-import { Colophon } from '../components/colophon'
+import Colophon from '../components/colophon'
 import { Footer } from '../components/footer'
 
 const Layout = ({ children }) => {

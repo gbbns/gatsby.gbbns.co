@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-export const Colophon = () => {
+const Colophon = () => {
   return (
     <aside className="c-colophon">
       <h3>
@@ -50,3 +50,5 @@ export const Colophon = () => {
     </aside>
   )
 }
+
+export default Colophon
