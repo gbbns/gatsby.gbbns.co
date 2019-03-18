@@ -19,6 +19,10 @@ export default function Index({ data }) {
           'manchester front end',
           'gatsby',
           'accessibility',
+          'ux technologist',
+          'front end developer manchester',
+          'gbbns',
+          'gibbons',
         ]}
       />
       <section className="c-content">
