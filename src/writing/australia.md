@@ -3,7 +3,7 @@ categories: 'travel'
 tags: ['travel', 'bucket-list', 'australia', 'personal']
 published: true
 title: 'Australia: My adventure down under'
-date: 2019-02-25T08:11:35+01:00
+date: 2019-03-31T08:11:35+01:00
 description: 'Wanted Down Under'
 type: 'article'
 author: 'Chris Gibbons'

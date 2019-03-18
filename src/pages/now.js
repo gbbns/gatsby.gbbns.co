@@ -15,6 +15,9 @@ export default function Now({ data }) {
           'now page',
           'what is chris gibbons doing now',
           'accessibility',
+          'chris gibbons',
+          'derek sivers',
+          'chris gibbons now page',
         ]}
       />
 

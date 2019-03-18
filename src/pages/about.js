@@ -28,14 +28,14 @@ export default function About({ data }) {
             <li>Web Standards</li>
             <li>Web Accessibility</li>
           </ul>
-          <h2>What I don't do or don't do a lot of</h2>
+          <h2>What I don&rsquo;t do or don&rsquo;t do a lot of</h2>
           <ul>
             <li>Backend development</li>
-            <li>Design (though I love interaction design!)</li>
             <li>Heavy JavaScript</li>
             <li>OOP</li>
             <li>Fix printers (or other bits of IT equipment)</li>
           </ul>
+          <hr />
           <h2>A potted history</h2>
           <p>
             Chris Gibbons is an experienced digital developer specialising in
@@ -88,18 +88,18 @@ export default function About({ data }) {
           <p>A UX what now?</p>
           <p>OK, let me explain.</p>
           <p>
-            I've been trying to find an accurate description for myself within
-            the front end (FE) arena for a number years now, especially with the
-            lines of what is expected of a FE-er becoming blurrier.
+            I&rsquo;ve been trying to find an accurate description for myself
+            within the front end (FE) arena for a number years now, especially
+            with the lines of what is expected of a FE-er becoming blurrier.
           </p>
           <p>
-            It's no exaggeration to say that the FE landscape has changed
-            dramatically in the 15 years I've been in the industry.Task runners
-            such as Grunt and Gulp weren't even twinkles in the eyes of the
-            people who concieved the ideas. Object orientated approaches to
-            frameworks such as Angular and React are commonplace and expected
-            skills to have. Accessibility &amp; inclusive design is rightly
-            gaining in prominence, but not enough for my liking!
+            It&rsquo;s no exaggeration to say that the FE landscape has changed
+            dramatically in the 15 years I&rsquo;ve been in the industry.Task
+            runners such as Grunt and Gulp weren&rsquo;t even twinkles in the
+            eyes of the people who concieved the ideas. Object orientated
+            approaches to frameworks such as Angular and React are commonplace
+            and expected skills to have. Accessibility &amp; inclusive design is
+            rightly gaining in prominence, but not enough for my liking!
           </p>
           <p>
             Now the parts of FE I particularly enjoy is around the UI layer and
