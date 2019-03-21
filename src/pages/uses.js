@@ -66,7 +66,7 @@ export default function Uses({ data }) {
           <ul>
             <li>Sketch &amp; Zeplin</li>
             <li>Spotify</li>
-            <li>SourceTree (I told you I'm a n00b to the command line)</li>
+            <li>SourceTree</li>
             <li>Evernote/OneNote (One for work, one for personal)</li>
             <li>Photoshop</li>
             <li>Lightroom</li>
@@ -127,58 +127,6 @@ export default function Uses({ data }) {
             years I have quite an exhaustive back catalogue of games to get
             through.
           </p>
-          <p>My current list is:</p>
-          <ul>
-            <li>
-              <a
-                href="https://www.amazon.co.uk/Uncharted-Nathan-Drake-Collection-PS4/dp/B00KJFDSJQ"
-                rel="noopener"
-              >
-                Uncharted: The Nathan Drake Collection
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.amazon.co.uk/PlayStation-9827450-Gran-Turismo-Sport/dp/B00ZG1SVA4"
-                rel="noopener"
-              >
-                Gran Turismo: Sport
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.amazon.co.uk/PlayStation-3392406-Ratchet-and-Clank/dp/B00ZG1TE1Y"
-                rel="noopener"
-              >
-                Ratchet and Clank
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.amazon.co.uk/Horizon-Zero-Dawn-Standard-Edition/dp/B00ZG1S88E/"
-                rel="noopener"
-              >
-                Horizon: Zero Dawn Standard Edition
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.amazon.co.uk/Last-Us-Remastered-PS4/dp/B00JK00S0S/"
-                rel="noopener"
-              >
-                The Last of Us Remastered
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.amazon.co.uk/Tomb-Raider-Definitive-Edition-PS4/dp/B00H8IVL6O/"
-                rel="noopener"
-              >
-                Tomb Raider Definitive Edition
-              </a>
-            </li>
-          </ul>
-
           <p>
             Due to the fact that I have a 4hr commute (~2hrs each way) I like to
             keep a charge on me all the time, enter the{' '}
@@ -210,6 +158,14 @@ export default function Uses({ data }) {
           </p>
           <p>My current kit consists of:</p>
           <ul>
+            <li>
+              <a
+                href="https://www.chillysbottles.com/product/Coffee-Cup/340ml/20548027252806/"
+                rel="noopener"
+              >
+                Chilly&rsquo;s coffee cup: Matte Blue
+              </a>{' '}
+            </li>
             <li>
               <a
                 href="https://www.amazon.co.uk/Aerobie-AeroPress-80R11-Coffee-Maker/dp/B000GXZ2GS/"
