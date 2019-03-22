@@ -15,7 +15,6 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-twitter`,
-    `gatsby-plugin-page-transitions`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
