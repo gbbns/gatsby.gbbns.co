@@ -19,9 +19,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             }}
             title={title}
             defaultTitle={data.site.siteMetadata.author}
-            titleTemplate={`${data.site.siteMetadata.author} | %s - ${
-              data.site.siteMetadata.siteTitleTag
-            }`}
+            titleTemplate={`${data.site.siteMetadata.author} | %s - ${data.site.siteMetadata.siteTitleTag}`}
             meta={[
               {
                 name: 'description',

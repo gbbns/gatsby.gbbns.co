@@ -1,6 +1,12 @@
 .c-content {
   display: grid;
+	p {
+		display: block;
 
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
   & + & {
     margin-top: $base-spacing * 6;
   }
