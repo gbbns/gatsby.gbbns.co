@@ -38,12 +38,12 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: path.join(__dirname, `src/images/favicon.png`),
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-favicon`,
+    //   options: {
+    //     logo: path.join(__dirname, `src/images/favicon.png`),
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
