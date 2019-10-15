@@ -3,16 +3,20 @@ categories: 'travel'
 tags: ['travel', 'bucket-list', 'australia', 'personal']
 published: true
 title: 'Australia: My adventure down under'
-date: 2019-03-31T08:11:35+01:00
+date: 2019-10-14T08:11:35+01:00
 description: 'Wanted Down Under'
 type: 'article'
 author: 'Chris Gibbons'
 path: '/writing/australia-my-adventure-down-under'
 ---
 
-It's been 6 months since I had my first taste of Australia. 6 long months.
+~~It's been 6 months since I had my first taste of Australia. 6 long months.~~
 
-A lot has happened since then, but I can't stop thinking about those two weeks. It was everything I had hoped it would be, and more.
+It's been a year since I had my first taste of Australia, 1 year, 12 long long months.
+
+A lot has happened since then, but I can't stop thinking about those two weeks, I literally have a thought about it _every single day_.
+
+It was everything I had hoped it would be, and more.
 
 ## They say to never meet your heroes
 
@@ -22,7 +26,7 @@ Quitely drinking my coffee, I started to contemplate the next few days. I couldn
 
 ## Plans
 
-I have many _many_ notes from my two-week trip which I'm slowly turning into articles which will appear on this site when published which will be roughly broken down into the following sections:
+I have many _many_ notes, and even _more_ photos, from my two-week trip which I'm slowly turning into articles which will appear on this site when published which will be roughly broken down into the following sections:
 
 - Part 1: The plan &amp; the dream
 - Part 2: Melbourne
