@@ -20,19 +20,20 @@ export default function Speaking({ data }) {
         <div className="c-content__body">
           <h2>Upcoming talks</h2>
           <ul>
+            <li>No upcoming talks</li>
             <li>
-              <a
-                href="https://uxscotland.net/2019/sessions/index.php?session=97"
-                rel="noopener"
-              >
-                UX Scotland: "And in the beginning there was HTML"
-                <br />- 13th June 2019 - Edinburgh
-              </a>
+              But if you would like me to speak at your meetup or event please
+              get in touch.
             </li>
           </ul>
 
           <h2>Previous talks</h2>
           <ul>
+            <li>
+              UX Scotland: "And in the beginning there was HTML"
+              <br />- 13th June 2019 - Edinburgh - Sadly I had to cancel due to
+              knee surgery.
+            </li>
             <li>
               <a
                 href="https://uxscotland.net/2018/sessions/index.php?session=93"
