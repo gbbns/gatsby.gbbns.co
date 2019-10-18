@@ -10,7 +10,7 @@ author: 'Chris Gibbons'
 path: '/writing/australia-part-one-the-plan-the-dream'
 ---
 
-Part 1: The plan &amp; the dream
+## The plan &amp; the dream
 
 For as long as I can remember I've wanted to go to Australia. Now some folks don't understand my desire to go, but it's something deep rooted in me that I _have_ to go.
 
@@ -18,7 +18,7 @@ Looking back, I think it stems from having an "_Auntie Joan who lives in Austral
 
 I also put a large part of the blame on [Sir Michael Palin](https://en.wikipedia.org/wiki/Michael_Palin) and his dazzling array of travel programmes, ["Full Circle with Michael Palin"](https://en.wikipedia.org/wiki/Full_Circle_with_Michael_Palin) being the main culprit, with special reference to [Episode Six: Australia/New Zealand](https://en.wikipedia.org/wiki/Full_Circle_with_Michael_Palin#Episode_Six:_Australia/New_Zealand)
 
-## Dreams can come true?
+### Dreams can come true?
 
 On 1st October 2018 I finally got the chance to head out there and put my years of dreaming into action.
 
@@ -26,15 +26,15 @@ As with most trips it needed some planning. I was going to be travelling with an
 
 After a purchase of some Lonely planet guides we started to trade ideas. We shared many blog posts that we'd read & gleaned ideas from (all of which I'll share in a later post), and eventually settled on the following itinerary, and whilst it might not be perfect for everyone it mostly fitted what we wanted to achieve pretty well.
 
-## Itinerary
+### Itinerary
 
-### Travel - outward
+#### Travel - outward
 
 * Sunday (30/10/18) - Train from Preston to Euston. Meet at KX.
 * Monday (01/11/18) - Early train to Gatwick. Flights.
 * Tuesday (02/11/18) - Arrive in Melbourne, checkin at hostel
 
-### Australia
+#### Australia
 
 * Day 1: Wednesday (03/11/18) - Melbourne
 * Day 2: Thursday (04/11/18) - Collect campervan and start Great Ocean Road
@@ -51,7 +51,7 @@ After a purchase of some Lonely planet guides we started to trade ideas. We shar
 * Day 13: Monday (15/11/18) - Sydney
 * Day 14: Tuesday (16/11/18) - Sydney (am); Airport (pm)
 
-### Travel - home
+#### Travel - home
 
 * Day 14: Tuesday (17/11/18) - Flight from Sydney
 * Day 15: Wednesday (18/11/18) - Arrive Manchester (am)
