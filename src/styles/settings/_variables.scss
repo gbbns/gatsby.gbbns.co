@@ -10,3 +10,35 @@ $palette-plain: #fff;
 
 $palette-yellow: #fac802;
 $palette-red: #ff103d;
+
+$palette-orange: #FE4100;
+$palette-orange: #FF622E;
+
+
+$palette: (
+	background: (
+		light: $palette-mid--lightest,
+		dark: $palette-black,
+		high: $palette-orange
+	),
+	header: (
+		light: $palette-red,
+		dark: $palette-yellow,
+		high: $palette-black
+	),
+	links: (
+		light: $palette-red,
+		dark: $palette-yellow,
+		high: $palette-black
+	),
+	divider: (
+		light: $palette-black,
+		dark: $palette-plain,
+		high: $palette-black
+	),
+	active: (
+		light: $palette-red,
+		dark: $palette-yellow,
+		high: $palette-black
+	)
+)
