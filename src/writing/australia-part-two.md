@@ -22,5 +22,8 @@ We'd decided to base ourselves at [Flinders])(http://flindersbackpackers.com.au/
 
 ## Day one
 
-As expected, I overslept. When we checked-in there had been a slight mix up and my travelling friend & I had been put in a different dorms, this wasn't a massive issue, but it meant that we had to rely on the extremely patchy mobile signal (or even patchier WiFi) to keep in touch. He'd tried to call me numerous times, but I'd missed them due to my deep slumber.
+As expected, I overslept.
 
+When we checked-in there had been a slight mix up and my travelling friend & I had been put in a different dorms, this wasn't a massive issue, but it meant that we had to rely on the extremely patchy mobile signal (or even patchier WiFi) to keep in touch. He'd tried to call me numerous times, but I'd missed them due to my deep slumber.
+
+We eventually met up and went for a wander to get some fresh air and get adjusted to Australia.
