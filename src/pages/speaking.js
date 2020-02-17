@@ -34,7 +34,7 @@ export default function Speaking({ data }) {
               UX Scotland: "And in the beginning there was HTML"
               <br />- 13th June 2019 - Edinburgh - Sadly I had to cancel due to
               knee surgery.
-                                    </li>
+            </li>
             <li>
               <a
                 href="https://uxscotland.net/2018/sessions/index.php?session=93"
@@ -43,7 +43,7 @@ export default function Speaking({ data }) {
                 UX Scotland: "How we became accidental accessibility champions,
                 and how you could too!"
                 <br />- 14th June 2018 - Edinburgh
-                                          </a>
+              </a>
             </li>
             <li>
               <a
@@ -52,7 +52,7 @@ export default function Speaking({ data }) {
               >
                 Camp Digital: "Accidentally becoming accessibility champions"
                 <br />- 2nd May 2018 - Manchester
-                                          </a>
+              </a>
             </li>
             <li>
               <a
@@ -61,7 +61,7 @@ export default function Speaking({ data }) {
               >
                 Front Enders: "Our adventures with pattern libraries"
                 <br />- Thursday 15th March - London:
-                                          </a>
+              </a>
             </li>
           </ul>
 
