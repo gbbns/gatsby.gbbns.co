@@ -1,0 +1,136 @@
+@media (prefers-color-scheme: dark) {
+	body {
+		background: map-get(map-get($palette, background), dark);
+		color: map-get(map-get($palette, copy), dark);
+	}
+	h1 {
+		color: map-get(map-get($palette, header), dark);
+	}
+	h1,
+	h2,
+	h3,
+	h4  {
+	+ p {
+			color: map-get(map-get($palette, copy), plain);
+		}
+	}
+	a {
+		color: map-get(map-get($palette, links), dark);
+		&:focus {
+			outline: 3px auto map-get(map-get($palette, active), dark);
+		}
+	}
+	blockquote {
+		border-left: $base-spacing / 2 solid rgba(map-get(map-get($palette, copy), dark), 0.15);
+	}
+	p {
+  	&:first-of-type {
+			color: map-get(map-get($palette, copy), plain);
+		}
+		a {
+			color: map-get(map-get($palette, links), dark);
+		}
+	}
+	ul {
+		li {
+			p,
+			p:first-of-type {
+				color: map-get(map-get($palette, copy), dark);
+			}
+		}
+	}
+	hr {
+
+		&::before {
+			color: map-get(map-get($palette, divider), dark);
+		}
+	}
+
+
+
+	.c-colophon {
+
+		&__link {
+			color: $palette-plain;
+			color: map-get(map-get($palette, nav-links), dark);
+
+			&:hover {
+				color: map-get(map-get($palette, nav-links), dark);
+			}
+
+			&.is-active {
+				color: map-get(map-get($palette, nav-links), dark);
+			}
+		}
+
+		&__list {
+
+			&::before {
+				color: map-get(map-get($palette, divider), dark);
+
+			}
+		}
+	}
+
+
+	.c-content {
+
+		&__body {
+
+			& + & {
+				&::before {
+					color: map-get(map-get($palette, divider), dark);
+				}
+			}
+		}
+
+		&__meta {
+
+			&-tag {
+				background: map-get(map-get($palette, background), plain);
+				color: map-get(map-get($palette, tags), high);
+
+				&:hover {
+					background: map-get(map-get($palette, background), dark);
+					color: map-get(map-get($palette, nav-links), dark);
+				}
+			}
+		}
+	}
+
+
+
+	.c-masthead {
+		color: map-get(map-get($palette, masthead), dark);
+
+		&:hover {
+			color: map-get(map-get($palette, nav-links), active);
+		}
+
+		&__item {
+
+			&:first-child {
+				color: map-get(map-get($palette, nav-links), active);
+			}
+		}
+	}
+
+
+
+
+	.c-navigation {
+
+		&__link {
+			color: map-get(map-get($palette, links), plain);
+
+			&:hover {
+				color: map-get(map-get($palette, links), dark);
+			}
+			&.is-active {
+				color: map-get(map-get($palette, links), dark);
+			}
+		}
+	}
+
+
+}

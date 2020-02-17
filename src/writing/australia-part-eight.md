@@ -11,3 +11,7 @@ path: '/writing/australia-part-eight-resources'
 ---
 
 Part 8: Resources and stuff that I've found helpful
+
+Here is a list of things that we found useful when planning the trip to Australia.
+
+I'm keeping this here for two reasons, firstly to share with you, the reader, to help inform any future decisions you may take. Secondly for prosperity (and incase I need to refer back at any point!)

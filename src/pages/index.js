@@ -1,9 +1,8 @@
 import React from 'react'
 
+import { graphql, Link } from 'gatsby'
 import Layout from '../layouts/layout'
 import SEO from '../components/seo'
-import { graphql } from 'gatsby'
-import { Link } from 'gatsby'
 
 import '../styles/main.scss'
 
@@ -48,11 +47,11 @@ export default function Index({ data }) {
             for some of the largest companies in the UK
           </p>
           <p>
-            I also like to <Link to="/writing/">write</Link> and{' '}
+            I also like to <Link to="/writing/">write</Link>, and occasionally{' '}
             <a href="https://www.instagram.com/_gbbns" rel="noopener">
               take pictures
             </a>
-            , amongst other things.
+            .
           </p>
         </div>
       </section>

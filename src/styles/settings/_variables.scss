@@ -9,7 +9,7 @@ $palette-mid--lightest: #f4f4f4;
 $palette-plain: #fff;
 
 $palette-yellow: #fac802;
-$palette-red: #ff103d;
+$palette-red: #e20000;
 
 $palette-orange: #FE4100;
 $palette-orange: #FF622E;
@@ -19,7 +19,8 @@ $palette: (
 	background: (
 		light: $palette-mid--lightest,
 		dark: $palette-black,
-		high: $palette-orange
+		high: $palette-orange,
+		plain: $palette-plain
 	),
 	header: (
 		light: $palette-red,
@@ -29,10 +30,17 @@ $palette: (
 	links: (
 		light: $palette-red,
 		dark: $palette-yellow,
-		high: $palette-black
+		high: $palette-black,
+		plain: $palette-plain
+	),
+	nav-links: (
+		light: $palette-red,
+		dark: $palette-plain,
+		high: $palette-black,
+		active: $palette-yellow
 	),
 	divider: (
-		light: $palette-black,
+		light: $palette-red,
 		dark: $palette-plain,
 		high: $palette-black
 	),
@@ -40,5 +48,22 @@ $palette: (
 		light: $palette-red,
 		dark: $palette-yellow,
 		high: $palette-black
+	),
+	copy: (
+		light: $palette-red,
+		dark: $palette-mid--light,
+		high: $palette-black,
+		plain: $palette-plain
+	),
+	tags: (
+		light: $palette-red,
+		dark: $palette-plain,
+		high: $palette-black
+	),
+	masthead: (
+		light: $palette-red,
+		dark: $palette-plain,
+		high: $palette-black
 	)
-)
+);
+

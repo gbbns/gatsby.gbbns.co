@@ -6,7 +6,7 @@
     margin-top: 0;
   }
   &__link {
-    color: $palette-plain;
+		color: map-get(map-get($palette, nav-links), light);
     font-family: 'Space Mono';
     font-size: 1.6rem;
     font-weight: normal;
@@ -15,11 +15,11 @@
     text-decoration: none;
 
     &:hover {
-      color: $palette-yellow;
+			color: map-get(map-get($palette, nav-links), light);
     }
 
     &.is-active {
-      color: $palette-yellow;
+			color: map-get(map-get($palette, nav-links), light);
     }
   }
 
@@ -29,7 +29,7 @@
     padding: 0;
 
     &::before {
-      color: $palette-plain;
+			color: map-get(map-get($palette, divider), light);
       content: '-';
       display: block;
       font-size: 1.6rem;

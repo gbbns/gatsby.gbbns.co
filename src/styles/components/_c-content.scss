@@ -38,7 +38,7 @@
         content: '...';
         display: inline-block;
         margin-left: 0.6em;
-        color: $palette-plain;
+				color: map-get(map-get($palette, divider), light);
         position: relative;
         top: -1.4rem;
         font-weight: 400;
@@ -80,8 +80,8 @@
     }
 
     &-tag {
-      background: $palette-plain;
-      color: $palette-black;
+			background: map-get(map-get($palette, nav-links), dark);
+			color: map-get(map-get($palette, tags), light);
       display: inline-block;
       padding: $base-spacing / 2;
       border-radius: 10px;
@@ -91,8 +91,8 @@
       font-weight: bold;
 
       &:hover {
-        background: $palette-black;
-        color: $palette-plain;
+        background: map-get(map-get($palette, tags), light);
+				color: map-get(map-get($palette, nav-links), dark);
       }
     }
 

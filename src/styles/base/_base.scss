@@ -6,8 +6,8 @@ html {
 }
 
 body {
-  background: $palette-black;
-  color: $palette-mid--light;
+	background: map-get(map-get($palette, background), light);
+	color: map-get(map-get($palette, copy), light);
   font-size: 16px;
   margin: 0 auto;
   padding: 0 $base-spacing * 3;
@@ -15,8 +15,9 @@ body {
   @media (min-width: 40em) {
     padding: 0;
     width: calc(100vw - 10vw);
-  }
+	}
 }
+
 
 h1,
 h2,
@@ -25,13 +26,13 @@ h4 {
   margin: 0;
 
   + p {
-    color: $palette-plain;
+		color: map-get(map-get($palette, copy), light);
   }
 }
 
 h1 {
   font-family: 'Rubik';
-  color: $palette-yellow;
+	color: map-get(map-get($palette, header), light);
   text-transform: uppercase;
   font-size: 2.3rem;
   font-weight: 900;
@@ -60,7 +61,7 @@ h3 {
 }
 
 a {
-  color: $palette-plain;
+	color: map-get(map-get($palette, links), light);
   font-weight: bold;
   transition: 0.15s all;
   text-decoration: none;
@@ -75,7 +76,7 @@ a {
   }
 
   &:focus {
-    outline: 3px auto $palette-yellow;
+		outline: 3px auto map-get(map-get($palette, active), light);
   }
 
   &[rel='noopener'] {
@@ -84,7 +85,7 @@ a {
 }
 
 blockquote {
-  border-left: $base-spacing / 2 solid rgba($palette-plain, 0.15);
+  border-left: $base-spacing / 2 solid rgba(map-get(map-get($palette, copy), light), 0.15);
   display: inline-block;
   padding-left: $base-spacing;
   margin-left: 0;
@@ -106,7 +107,7 @@ p {
   margin: 0 0 $base-spacing * 1.5 0;
 
   &:first-of-type {
-    color: $palette-plain;
+    color: map-get(map-get($palette, copy), light);
     font-size: 1.125rem;
     margin-top: 0;
     margin-bottom: $base-spacing * 2;
@@ -122,7 +123,7 @@ p {
   }
 
   a {
-    color: $palette-yellow;
+		color: map-get(map-get($palette, links), light);
   }
 }
 
@@ -132,7 +133,7 @@ ul {
   li {
     p,
     p:first-of-type {
-      color: $palette-mid--light;
+      color: map-get(map-get($palette, copy), light);
     }
   }
 }
@@ -148,7 +149,7 @@ hr {
     content: '...';
     display: inline-block;
     margin-left: 0.6em;
-    color: $palette-plain;
+    color: map-get(map-get($palette, divider), light);
     position: relative;
     top: -1.4rem;
     font-weight: 400;

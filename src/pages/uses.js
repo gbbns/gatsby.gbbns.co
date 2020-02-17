@@ -19,9 +19,9 @@ export default function Uses({ data }) {
         </div>
         <div className="c-content__body">
           <p>
-            Sometimes I get asked what 'what make is that', 'where did you get
-            that from' or just what tools etc. I use day to day, and after
-            reading the{' '}
+            Sometimes I get asked what &lsquo;what make is that&rsquo;,
+            &lsquo;where did you get that from&rsquo; or just what tools etc. I
+            use day to day, and after reading the{' '}
             <a href="https://wesbos.com/uses" rel="noopener">
               uses page of at Wes Bos' site
             </a>{' '}

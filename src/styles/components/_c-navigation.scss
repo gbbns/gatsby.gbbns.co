@@ -11,7 +11,7 @@
   }
 
   &__link {
-    color: $palette-plain;
+		color: map-get(map-get($palette, links), light);
     display: inline-block;
     font-size: 1.2rem;
     line-height: 1.4;
@@ -20,10 +20,10 @@
     text-decoration: none;
 
     &:hover {
-      color: $palette-yellow;
+			color: map-get(map-get($palette, links), light);
     }
     &.is-active {
-      color: $palette-yellow;
+			color: map-get(map-get($palette, links), light);
     }
   }
 }
