@@ -11,59 +11,57 @@ $palette-plain: #fff;
 $palette-yellow: #fac802;
 $palette-red: #e20000;
 
-$palette-orange: #FE4100;
-$palette-orange: #FF622E;
-
+$palette-orange: #fe4100;
+$palette-orange: #ff622e;
 
 $palette: (
-	background: (
-		light: $palette-mid--lightest,
-		dark: $palette-black,
-		high: $palette-orange,
-		plain: $palette-plain
-	),
-	header: (
-		light: $palette-red,
-		dark: $palette-yellow,
-		high: $palette-black
-	),
-	links: (
-		light: $palette-red,
-		dark: $palette-yellow,
-		high: $palette-black,
-		plain: $palette-plain
-	),
-	nav-links: (
-		light: $palette-red,
-		dark: $palette-plain,
-		high: $palette-black,
-		active: $palette-yellow
-	),
-	divider: (
-		light: $palette-red,
-		dark: $palette-plain,
-		high: $palette-black
-	),
-	active: (
-		light: $palette-red,
-		dark: $palette-yellow,
-		high: $palette-black
-	),
-	copy: (
-		light: $palette-red,
-		dark: $palette-mid--light,
-		high: $palette-black,
-		plain: $palette-plain
-	),
-	tags: (
-		light: $palette-red,
-		dark: $palette-plain,
-		high: $palette-black
-	),
-	masthead: (
-		light: $palette-red,
-		dark: $palette-plain,
-		high: $palette-black
-	)
+  background: (
+    light: $palette-mid--lightest,
+    dark: $palette-black,
+    high: $palette-orange,
+    plain: $palette-plain,
+  ),
+  header: (
+    light: $palette-red,
+    dark: $palette-yellow,
+    high: $palette-black,
+  ),
+  links: (
+    light: $palette-red,
+    dark: $palette-yellow,
+    high: $palette-black,
+    plain: $palette-plain,
+  ),
+  nav-links: (
+    light: $palette-red,
+    dark: $palette-plain,
+    high: $palette-black,
+    active: $palette-yellow,
+  ),
+  divider: (
+    light: $palette-red,
+    dark: $palette-plain,
+    high: $palette-black,
+  ),
+  active: (
+    light: $palette-red,
+    dark: $palette-yellow,
+    high: $palette-black,
+  ),
+  copy: (
+    light: $palette-red,
+    dark: $palette-mid--light,
+    high: $palette-black,
+    plain: $palette-plain,
+  ),
+  tags: (
+    light: $palette-red,
+    dark: $palette-plain,
+    high: $palette-black,
+  ),
+  masthead: (
+    light: $palette-red,
+    dark: $palette-plain,
+    high: $palette-black,
+  ),
 );
-

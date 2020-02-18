@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Layout from '../layouts/layout'
-import SEO from '../components/seo'
 import { graphql, Link } from 'gatsby'
 
 import kebabCase from 'lodash'
 import moment from 'moment'
+import SEO from '../components/seo'
+import Layout from '../layouts/layout'
 import { LastUpdated } from '../components/last-updated'
 
 import '../styles/main.scss'
@@ -31,7 +31,10 @@ export default function Template({
         <div className="c-content__body">
           <div className="c-content__meta">
             <ul className="c-content__meta-items">
-              <li className="c-content__meta-item">by {frontmatter.author}</li>
+              <li className="c-content__meta-item">
+                by
+                {frontmatter.author}
+              </li>
               <li className="c-content__meta-item">{frontmatter.date}</li>
               <li className="c-content__meta-item">
                 {markdownRemark.timeToRead}{' '}
