@@ -24,6 +24,12 @@
     }
     &.is-active {
       color: map-get(map-get($palette, links), light);
+
+      &:before {
+        content: '\2900';
+        position: relative;
+        margin-right: $base-spacing / 2;
+      }
     }
   }
 }
