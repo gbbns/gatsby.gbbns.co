@@ -15,17 +15,17 @@ export default function Contact({ data }) {
 
       <section className="c-content">
         <div className="c-content__title">
-          <h1>Get in contact with Chris</h1>
+          <h1>Get in touch</h1>
         </div>
         <div className="c-content__body">
           <p>
-            Whether you have a question you'd like to ask, a request for me to
-            speak at your event or you want me to help with FE or consult on
-            your project then feel free to get in touch.
+            Whether you have a question you&rsquo;d like to ask, a request for
+            me to speak at your event or you want me to help with FE or consult
+            on your project then feel free to get in touch.
           </p>
           <p>
             I normally respond the quickest on Twitter, so I'd recommend hitting
-            me up on there for quick questions or to chat (DM's are open).
+            me up on there for quick questions or to chat (DM&rsquo;s are open).
           </p>
           <p>
             If you want to discuss a project, me working with you, speaking, or

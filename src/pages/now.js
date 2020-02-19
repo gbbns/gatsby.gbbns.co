@@ -23,7 +23,7 @@ export default function Now({ data }) {
 
       <section className="c-content">
         <div className="c-content__title">
-          <h1>What I'm doing now</h1>
+          <h1>What I&rsquo;m doing now</h1>
         </div>
         <div className="c-content__body">
           <p>

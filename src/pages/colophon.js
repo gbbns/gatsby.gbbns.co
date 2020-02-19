@@ -20,7 +20,7 @@ export default function Colophon({ data }) {
 
       <section className="c-content">
         <div className="c-content__title">
-          <h1>A colophon for gbbns.co</h1>
+          <h1>Colophon for gbbns.co</h1>
         </div>
         <div className="c-content__body">
           <p>

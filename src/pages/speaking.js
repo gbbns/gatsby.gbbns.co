@@ -15,14 +15,26 @@ export default function Speaking({ data }) {
 
       <section className="c-content">
         <div className="c-content__title">
-          <h1>Events where Chris is/has spoken</h1>
+          <h1>Talking</h1>
+          <p>
+            Being an introvert{' '}
+            <a
+              rel="nofollow noopener"
+              href="https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+            >
+              ISTP
+            </a>
+            , the very idea of public speaking scares the crap out of me, but I
+            do it, because weirdly I enjoy it - usually afterwards, when
+            I&rsquo;m in the pub.
+          </p>
         </div>
         <div className="c-content__body">
           <h2>Upcoming talks</h2>
           <ul>
             <li>No upcoming talks are planned.</li>
             <li>
-              <a href="mailto:chris@gbbns.co" rel="noopener">
+              <a href="mailto:chris@gbbns.co" rel="nofollow noopener">
                 Please send me an email if you’d like me to speak at your event.
               </a>
             </li>
@@ -31,7 +43,7 @@ export default function Speaking({ data }) {
           <h2>Previous talks</h2>
           <ul>
             <li>
-              UX Scotland: "And in the beginning there was HTML"
+              UX Scotland: &ldquo;And in the beginning there was HTML&rdquo;
               <br />- 13th June 2019 - Edinburgh - Sadly I had to cancel due to
               knee surgery.
             </li>
