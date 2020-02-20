@@ -6,11 +6,15 @@
 
   &__item {
     list-style: none;
-    flex: 1 1 50%;
+    // flex: 1 1 50%;
     margin-bottom: $base-spacing;
 
-    @media (min-width: 768px) {
-      flex: 1 1 20%;
+    // @media (min-width: 768px) {
+    //   flex: 1 1 20%;
+    // }
+
+    & + & {
+      padding-left: $base-spacing * 2;
     }
   }
 }
