@@ -13,7 +13,7 @@
       'colophon content'
       '. content'
       'footer footer';
-    grid-template-columns: 4fr 8fr;
+    grid-template-columns: 2fr 8fr;
     grid-gap: $base-spacing * 2;
     padding-top: $base-spacing * 5;
   }

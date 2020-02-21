@@ -33,7 +33,7 @@ export default function Template({
             <ul className="c-content__meta-items">
               <li className="c-content__meta-item">
                 by
-                {frontmatter.author}
+                {` ${frontmatter.author}`}
               </li>
               <li className="c-content__meta-item">{frontmatter.date}</li>
               <li className="c-content__meta-item">
