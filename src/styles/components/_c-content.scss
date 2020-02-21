@@ -12,7 +12,7 @@
   }
 
   @media (min-width: 40em) {
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(9, 1fr);
   }
 
   &__title {
@@ -83,8 +83,8 @@
       background: map-get(map-get($palette, nav-links), dark);
       color: map-get(map-get($palette, tags), light);
       display: inline-block;
-      padding: $base-spacing / 2;
-      border-radius: 10px;
+      padding: $base-spacing / 1.5 $base-spacing * 1.5;
+      border-radius: $base-spacing * 1.5;
       font-size: 0.6rem;
       text-transform: uppercase;
       width: max-content;
