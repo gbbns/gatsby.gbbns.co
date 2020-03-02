@@ -3,6 +3,7 @@ html {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   line-height: 1.25;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -72,10 +73,16 @@ a {
   &:hover {
     text-decoration: underline;
     text-decoration-skip-ink: auto;
+    &:focus {
+      color: map-get(map-get($palette, links), plain);
+    }
   }
 
   &:focus {
-    outline: 3px auto map-get(map-get($palette, active), light);
+    outline: none;
+    background: map-get(map-get($palette, active), light);
+    color: map-get(map-get($palette, background), light);
+    box-shadow: 0px 0px 0px 4px map-get(map-get($palette, active), light);
   }
 
   &[rel='noopener'] {

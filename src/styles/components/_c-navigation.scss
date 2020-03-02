@@ -23,7 +23,7 @@
       color: map-get(map-get($palette, links), light);
     }
     &.is-active {
-      color: map-get(map-get($palette, links), light);
+      // color: map-get(map-get($palette, links), light);
 
       &:before {
         content: '\2900';

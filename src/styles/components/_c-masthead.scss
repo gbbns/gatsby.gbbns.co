@@ -11,10 +11,6 @@
     margin-bottom: $base-spacing * 5;
   }
 
-  &:hover {
-    color: map-get(map-get($palette, nav-links), light);
-  }
-
   &__item {
     display: block;
     text-decoration: none;
@@ -22,9 +18,15 @@
     margin: 0 0 $base-spacing 0;
 
     &:first-child {
-      color: map-get(map-get($palette, nav-links), light);
       font-weight: bold;
       text-transform: uppercase;
     }
+  }
+
+  &:hover {
+    color: map-get(map-get($palette, nav-links), light);
+  }
+  &:focus {
+    color: map-get(map-get($palette, links), plain);
   }
 }

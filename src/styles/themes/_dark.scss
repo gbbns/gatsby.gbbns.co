@@ -16,8 +16,18 @@
   }
   a {
     color: map-get(map-get($palette, links), dark);
+    &:hover {
+      text-decoration: underline;
+      text-decoration-skip-ink: auto;
+      &:focus {
+        color: map-get(map-get($palette, links), high);
+      }
+    }
     &:focus {
-      outline: 3px auto map-get(map-get($palette, active), dark);
+      outline: none;
+      background: map-get(map-get($palette, active), dark);
+      color: map-get(map-get($palette, copy), high);
+      box-shadow: 0px 0px 0px 4px map-get(map-get($palette, active), dark);
     }
   }
   blockquote {
@@ -93,12 +103,28 @@
     color: map-get(map-get($palette, masthead), dark);
 
     &:hover {
-      color: map-get(map-get($palette, nav-links), active);
+      outline: none;
+      text-decoration: none;
+      background: map-get(map-get($palette, header), dark);
+      color: map-get(map-get($palette, nav-links), high);
+      box-shadow: 0px 0px 0px 4px map-get(map-get($palette, header), dark);
+      .c-masthead__item:first-child {
+        color: map-get(map-get($palette, nav-links), high);
+      }
     }
 
     &__item {
       &:first-child {
         color: map-get(map-get($palette, nav-links), active);
+        &:focus {
+          color: map-get(map-get($palette, nav-links), high);
+        }
+      }
+    }
+    &:focus {
+      color: map-get(map-get($palette, nav-links), high);
+      .c-masthead__item:first-child {
+        color: map-get(map-get($palette, nav-links), high);
       }
     }
   }
@@ -112,6 +138,9 @@
       }
       &.is-active {
         color: map-get(map-get($palette, links), dark);
+        &:focus {
+          color: map-get(map-get($palette, links), high);
+        }
       }
     }
   }

@@ -16,6 +16,8 @@ export default function Speaking({ data }) {
       <section className="c-content">
         <div className="c-content__title">
           <h1>Talking</h1>
+        </div>
+        <div className="c-content__body">
           <p>
             Being an introvert{' '}
             <a
@@ -28,25 +30,26 @@ export default function Speaking({ data }) {
             do it, because weirdly I enjoy it - usually afterwards, when
             I&rsquo;m in the pub.
           </p>
-        </div>
-        <div className="c-content__body">
+          <p>
+            <a href="mailto:chris@gbbns.co" rel="nofollow noopener">
+              Please send me an email if you’d like me to speak at your event.
+            </a>
+          </p>
           <h2>Upcoming talks</h2>
           <ul>
-            <li>No upcoming talks are planned.</li>
             <li>
-              <a href="mailto:chris@gbbns.co" rel="nofollow noopener">
-                Please send me an email if you’d like me to speak at your event.
-              </a>
+              Camp Digital: &ldquo;And in the beginning there was HTML&rdquo;
+              <br /> - May 2020, Manchester UK.
+            </li>
+            <li>
+              UX Scotland: &ldquo;And in the beginning there was HTML&rdquo;
+              <br />- June 2020, Edinburgh UK (Currently on the reserve list)
             </li>
           </ul>
 
           <h2>Previous talks</h2>
           <ul>
-            <li>
-              UX Scotland: &ldquo;And in the beginning there was HTML&rdquo;
-              <br />- 13th June 2019 - Edinburgh - Sadly I had to cancel due to
-              knee surgery.
-            </li>
+            <li>UX Crunch, Manchester UK: Data accessibility - January 2020</li>
             <li>
               <a
                 href="https://uxscotland.net/2018/sessions/index.php?session=93"
@@ -76,10 +79,6 @@ export default function Speaking({ data }) {
               </a>
             </li>
           </ul>
-
-          <a href="mailto:chris@gbbns.co" rel="noopener">
-            Please send me an email if you’d like me to speak at your event.
-          </a>
         </div>
       </section>
     </Layout>

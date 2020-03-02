@@ -20,15 +20,17 @@ export default function About({ data }) {
         <div className="c-content__body">
           <h2>What I do &amp; specialise in</h2>
           <ul>
+            <li>Web Standards</li>
+            <li>Accessibility</li>
+            <li>Design systems</li>
+            <li>Enabling better conversations between design and dev</li>
             <li>HTML</li>
             <li>CSS (Sass)</li>
             <li>Responsive &amp; Mobile-first</li>
             <li>UI/UX</li>
             <li>JavaScript (ES5+)</li>
-            <li>Web Standards</li>
-            <li>Web Accessibility</li>
           </ul>
-          <h2>What I don&rsquo;t do or don&rsquo;t do a lot of</h2>
+          <h2>What I don&rsquo;t do</h2>
           <ul>
             <li>Backend development</li>
             <li>Heavy JavaScript</li>
@@ -38,14 +40,17 @@ export default function About({ data }) {
           <hr />
           <h2>A potted history</h2>
           <p>
-            Chris Gibbons is an experienced digital developer specialising in
-            traditional front-end development practises, UI/UX and mobile.
+            Chris Gibbons is an experienced and passionate digital developer
+            specialising in traditional front-end development practises, UI/UX
+            and mobile, with an obsession for well written & semantic code to
+            help deliver cross-device, compliant, usable websites which are
+            accessible & inclusive.
           </p>
           <p>
-            He has a passion/mild obsession for well written, semantic &amp;
-            accessible code. He enjoys the challenge of learning and using new
-            and emerging technologies to better projects, as well as delivering
-            cross-device, compliant, usable websites.
+            He sits firmly at the intersection of design & front-end. Advocates
+            the use of design systems and overall spends large parts of him time
+            trying to make the web a far more accessible and inclusive place,
+            for everyone.
           </p>
           <p>
             He also hates speaking about himself in the third person, so lets
