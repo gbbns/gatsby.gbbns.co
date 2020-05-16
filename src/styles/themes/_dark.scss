@@ -105,6 +105,7 @@
     &:hover {
       outline: none;
       text-decoration: none;
+
       background: map-get(map-get($palette, header), dark);
       color: map-get(map-get($palette, nav-links), high);
       box-shadow: 0px 0px 0px 4px map-get(map-get($palette, header), dark);

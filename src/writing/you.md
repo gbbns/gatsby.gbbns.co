@@ -92,7 +92,7 @@ The week after this chat I received an email from him **telling** me that we had
 
 We spent the next two hours talking at great length, and rather frankly, about what I&rsquo;d said to try and get to the bottom of things. Nothing was off the table &mdash; and I mean _nothing_ &mdash; obviously this helps when you know, trust and respect the other person.
 
-He asked me all kinds of questions. We talked about home life &mdash; finances, relationships, worries, arguments, how we (my wife and I) relax, how we talk to each other. We talked about work &mdash; what I enjoyed, what I didn&rsquo;t, what got me down, what got me excited. He asked me why I said I was wanting to leave the company, he asked me why now. As I say, nothing was off the table.
+He asked me all kinds of questions. We talked about home life &mdash; finances, relationships, worries, arguments, how I relax; We talked about work &mdash; what I enjoyed, what I didn&rsquo;t, what got me down, what got me excited. He asked me why I said I was wanting to leave the company, he asked me why now. As I say, nothing was off the table.
 
 He then gave me &ldquo;homework&rdquo; and we left.
 
@@ -106,7 +106,7 @@ The meetings we had, at the time, sometimes felt awkward and confused, but it wa
 
 I think it&rsquo;s testament to us both that nearly three years and two jobs later that we still have our meetings. We still talk as openly as we first did, still covering the same, or similar topics as we first did.
 
-The opening question is almost always - "So, how are things at home? How are things between you and the wife" and that sets the tone for the next hour.
+The opening question is almost always - "So, how are things?" and that sets the tone for the next hour.
 
 As for me, I still find them as valuable now as I did back then. You may be asking yourself why? Well aside from the fact we always go to a decent coffee shop, I think it&rsquo;s down to the fact that I can talk about things which my friend and mentor has already been through and experienced. The answers and advice he gives me sometimes blows my mind and almost always give me the kick up the arse I need.
 

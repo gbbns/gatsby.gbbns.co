@@ -23,7 +23,7 @@ export default function Writing({ data }) {
         <div className="c-content__body">
           {posts
             .filter(
-              post =>
+              (post) =>
                 post.node.frontmatter.title.length > 0 &&
                 post.node.frontmatter.published
             )

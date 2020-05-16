@@ -1,6 +1,5 @@
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import { Link } from 'gatsby'
+import { StaticQuery, graphql, Link } from 'gatsby'
 
 const Header = () => (
   <StaticQuery
@@ -19,7 +18,7 @@ const Header = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <header className="o-content__sidebar">
         <Link to="/" className="c-masthead" activeClassName="is-active">
           <span className="c-masthead__item" aria-hidden="true">
@@ -45,7 +44,7 @@ const Header = () => (
                 About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/writing/"
                 className="c-navigation__link"
@@ -53,7 +52,7 @@ const Header = () => (
               >
                 Writing
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="/speaking/"
