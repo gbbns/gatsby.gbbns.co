@@ -31,7 +31,9 @@ h4 {
 }
 
 h1 {
-  font-family: 'Rubik';
+  font-family: 'Rubik', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   color: map-get(map-get($palette, header), light);
   text-transform: uppercase;
   font-size: 2.3rem;
