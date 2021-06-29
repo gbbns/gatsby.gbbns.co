@@ -98,8 +98,8 @@ const Index = () => (
             <article className="c-content__body">
               <h2>Notice</h2>
               <p>
-                I'm have a tidy up of old blog posts, so for now, I've taken
-                them down.
+                I'm have a tidy up of old blog posts and pages, so for now I've
+                taken them down, they will return at somepoint...
               </p>
             </article>
           </section>
