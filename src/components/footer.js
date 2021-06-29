@@ -5,7 +5,7 @@ export const Footer = () => {
   const copyrightYear = new Date().getFullYear()
   return (
     <footer className="c-footer">
-      <div className="card card--message">
+      {/* <div className="card card--message">
         <h4>
           As you've probably spotted I'm designing &amp; building this site
           "live" and iteratively.
@@ -103,7 +103,7 @@ export const Footer = () => {
             500px
           </a>
         </li>
-      </ul>
+      </ul> */}
 
       <p>
         Copyright &copy; {copyrightYear} Chris Gibbons - All rights reserved.

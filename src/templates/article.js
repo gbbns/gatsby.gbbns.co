@@ -2,7 +2,7 @@ import React from 'react'
 
 import { graphql, Link } from 'gatsby'
 
-import kebabCase from 'lodash'
+import { kebabCase } from 'lodash'
 import moment from 'moment'
 import SEO from '../components/seo'
 import Layout from '../layouts/layout'
@@ -71,7 +71,7 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($path: String!) {
+  query ($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       parent {
         ... on File {

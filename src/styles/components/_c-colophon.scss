@@ -1,3 +1,4 @@
+@use "sass:math";
 .c-colophon {
   grid-area: colophon;
   margin-top: $base-spacing * 4;
@@ -43,7 +44,7 @@
 
   &__items {
     font-size: 1rem;
-    margin-bottom: $base-spacing / 3;
+    margin-bottom: math.div($base-spacing, 3);
 
     &:last-of-type {
       margin-bottom: 0;

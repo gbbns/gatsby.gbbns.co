@@ -36,7 +36,7 @@ const pageQuery = graphql`
   }
 `
 
-export default () => (
+const Index = () => (
   <StaticQuery
     query={pageQuery}
     render={(data) => {
@@ -63,22 +63,26 @@ export default () => (
             </div>
             <div className="c-content__body">
               <p>
-                An experienced frontend developer based in Lancashire [53.7632°
-                N, 2.7044° W], UK.
+                An experienced digital developer based in Lancashire [53.7632°
+                N, 2.7044° W], UK, specialising in the &ldquo;lost art&rdquo; of
+                traditional front-end development practises, with a long time
+                obsession for well written, semantic & accessible code.
               </p>
               <p>
-                I build fast, user friendly and accessible websites for the
-                automotive industry, with a particular passion/obsession for
-                well written and clean code.
+                I’ve got <strike>over a decades</strike> lots experience as a
+                front end developer and have strong passion for good clean UX
+                and accessibility.
               </p>
               <p>
-                I’ve got over a decades experience as a front end developer and
-                have recently found a passion for UX and accessibility. My
-                career has been spent working for some of the top
+                My career has been spent working for some of the top
                 businesses—both agency and in-house—in Manchester. During this
                 time I have been fortunate to have the chance to work on large
                 scale, content-managed platforms for some of the largest
                 companies in the UK
+              </p>
+              <p>
+                Currently plying my trade as a lead front-end engineer working
+                on design systems at Co-op.
               </p>
               <p>
                 I also like to{' '}
@@ -127,3 +131,5 @@ export default () => (
     }}
   />
 )
+
+export default Index

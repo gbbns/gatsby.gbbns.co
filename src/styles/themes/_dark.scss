@@ -1,3 +1,4 @@
+@use "sass:math";
 @media (prefers-color-scheme: dark) {
   body {
     background: map-get(map-get($palette, background), dark);
@@ -31,7 +32,7 @@
     }
   }
   blockquote {
-    border-left: $base-spacing / 2 solid
+    border-left: math.div($base-spacing, 2) solid
       rgba(map-get(map-get($palette, copy), dark), 0.15);
   }
   p {

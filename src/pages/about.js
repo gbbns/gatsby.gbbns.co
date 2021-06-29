@@ -41,14 +41,14 @@ export default function About({ data }) {
           <h2>A potted history</h2>
           <p>
             Chris Gibbons is an experienced and passionate digital developer
-            specialising in traditional front-end development practises, UI/UX
-            and mobile, with an obsession for well written & semantic code to
-            help deliver cross-device, compliant, usable websites which are
-            accessible & inclusive.
+            specialising in the “lost art” of traditional front-end development
+            practises, UI/UX and mobile, with a long time obsession for well
+            written, semantic & accessible code to help deliver cross-device,
+            compliant, usable websites which are accessible & inclusive.
           </p>
           <p>
             He sits firmly at the intersection of design & front-end. Advocates
-            the use of design systems and overall spends large parts of him time
+            the use of design systems and overall spends large parts of his time
             trying to make the web a far more accessible and inclusive place,
             for everyone.
           </p>
@@ -70,12 +70,21 @@ export default function About({ data }) {
             front-end and UX in the world of car finance.
           </p>
           <p>
-            I now spend my time happily employed by the nice folk at{' '}
+            Happily employed by the nice folk at{' '}
             <a href="https://www.autotrader.co.uk/" rel="noopener">
               Auto Trader
             </a>{' '}
-            as a Principal UX/UI developer and an advocate of accessibility
-            &amp; inclusive design.
+            for 4 years as a Principal UX/UI developer and an advocate of
+            accessibility &amp; inclusive design.
+          </p>
+
+          <p>
+            Now lead Front-end engineer at the lovely folks at{' '}
+            <a href="https://www.coop.co.uk" rel="noopener">
+              Co-op
+            </a>
+            , helping to shape the future of the design system and other
+            products for our colleages.
           </p>
           <p>
             Outside of work I live close to the seaside resort of{' '}
